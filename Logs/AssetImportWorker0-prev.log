@@ -1,0 +1,2132 @@
+Using pre-set license
+Built from '2020.3/release' branch; Version is '2020.3.15f2 (6cf78cb77498) revision 7141260'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Pro; OS build 19043.1165; Version 2009; 64bit' Language: 'en' Physical Memory: 16332 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+ COMMAND LINE ARGUMENTS:
+F:\Unity\2020.3.15f2\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+F:/Unity/Projects/Oniria
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+57607
+Successfully changed project path to: F:/Unity/Projects/Oniria
+F:/Unity/Projects/Oniria
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 62.07 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.15f2 (6cf78cb77498)
+[Subsystems] Discovering subsystems at path F:/Unity/2020.3.15f2/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path F:/Unity/Projects/Oniria/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: Radeon RX 590 Series (ID=0x67df)
+    Vendor:   
+    VRAM:     8171 MB
+    Driver:   27.20.15003.1004
+Initialize mono
+Mono path[0] = 'F:/Unity/2020.3.15f2/Editor/Data/Managed'
+Mono path[1] = 'F:/Unity/2020.3.15f2/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'F:/Unity/2020.3.15f2/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56608
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: F:/Unity/2020.3.15f2/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.001288 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 69.67 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.194 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1194ms)
+		BeginReloadAssembly (62ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (560ms)
+			LoadAssemblies (60ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (182ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (52ms)
+			SetupLoadedEditorAssemblies (245ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (7ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (70ms)
+				BeforeProcessingInitializeOnLoad (13ms)
+				ProcessInitializeOnLoadAttributes (117ms)
+				ProcessInitializeOnLoadMethodAttributes (36ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.003756 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 69.58 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.618 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1619ms)
+		BeginReloadAssembly (176ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (21ms)
+		EndReloadAssembly (1361ms)
+			LoadAssemblies (109ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (429ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (64ms)
+			SetupLoadedEditorAssemblies (574ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (70ms)
+				BeforeProcessingInitializeOnLoad (127ms)
+				ProcessInitializeOnLoadAttributes (364ms)
+				ProcessInitializeOnLoadMethodAttributes (6ms)
+				AfterProcessingInitializeOnLoad (3ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (9ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
+Refreshing native plugins compatible for Editor in 0.84 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2702 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 123.0 MB.
+System memory in use after: 120.8 MB.
+
+Unloading 47 unused Assets to reduce memory usage. Loaded Objects now: 3114.
+Total: 7.955300 ms (FindLiveObjects: 0.476600 ms CreateObjectMapping: 0.154200 ms MarkObjects: 4.634700 ms  DeleteObjects: 2.687000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  path: Assets/New Terrain.asset
+  artifactKey: Guid(5910d23e1bb67dd47a423e8f9b01cbd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New Terrain.asset using Guid(5910d23e1bb67dd47a423e8f9b01cbd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea71675697e42e3d66079d82df664e84') in 0.077471 seconds 
+  Import took 0.084597 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 125.770251 seconds.
+  path: Assets/Materials/Base_mat.shadergraph
+  artifactKey: Guid(586ba5823981c8f468c2f57e27ae86c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Base_mat.shadergraph using Guid(586ba5823981c8f468c2f57e27ae86c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30d12c52f6a80f036616f2e5c450ccc0') in 0.008138 seconds 
+  Import took 0.012242 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.125498 seconds.
+  path: Assets/Materials/Base_mat.shadergraph
+  artifactKey: Guid(586ba5823981c8f468c2f57e27ae86c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Base_mat.shadergraph using Guid(586ba5823981c8f468c2f57e27ae86c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30d12c52f6a80f036616f2e5c450ccc0') in 0.002094 seconds 
+  Import took 0.006294 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.490068 seconds.
+  path: Assets/Materials/Roller_Chain.shadergraph
+  artifactKey: Guid(586ba5823981c8f468c2f57e27ae86c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Roller_Chain.shadergraph using Guid(586ba5823981c8f468c2f57e27ae86c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6df868c0bba9e9794b5282370de5c9aa') in 0.006684 seconds 
+  Import took 0.010841 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 525.666673 seconds.
+  path: Assets/Materials/NewUnlitShader.shader
+  artifactKey: Guid(d4136a48fab5b2f4eb1dd01baf6dd902) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/NewUnlitShader.shader using Guid(d4136a48fab5b2f4eb1dd01baf6dd902) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f442660aeac69beb23a40409c9c07f7') in 0.008303 seconds 
+  Import took 0.013014 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.021206 seconds.
+  path: Assets/Materials/NewUnlitShader.shader
+  artifactKey: Guid(d4136a48fab5b2f4eb1dd01baf6dd902) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/NewUnlitShader.shader using Guid(d4136a48fab5b2f4eb1dd01baf6dd902) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f442660aeac69beb23a40409c9c07f7') in 0.003020 seconds 
+  Import took 0.008162 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 20.110532 seconds.
+  path: Assets/Materials/Base_Mat.shadergraph
+  artifactKey: Guid(ce89cefe8b1c0d24eaa9a9d7a1080a59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Base_Mat.shadergraph using Guid(ce89cefe8b1c0d24eaa9a9d7a1080a59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1390fad9c3493ebdc1aa81e0115e5db9') in 0.006776 seconds 
+  Import took 0.011082 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.408022 seconds.
+  path: Assets/Materials/Base_Mat.shadergraph
+  artifactKey: Guid(ce89cefe8b1c0d24eaa9a9d7a1080a59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Base_Mat.shadergraph using Guid(ce89cefe8b1c0d24eaa9a9d7a1080a59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1390fad9c3493ebdc1aa81e0115e5db9') in 0.003427 seconds 
+  Import took 0.007828 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 509.187595 seconds.
+  path: Assets/Materials/Base_Mat.shadergraph
+  artifactKey: Guid(ce89cefe8b1c0d24eaa9a9d7a1080a59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Base_Mat.shadergraph using Guid(ce89cefe8b1c0d24eaa9a9d7a1080a59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd012020f5c9b5d32594f67a8e3ba4313') in 0.003487 seconds 
+  Import took 0.007986 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 92.112302 seconds.
+  path: Assets/Materials/Elevador.mat
+  artifactKey: Guid(134d77429c51c8e4db945410647a4be6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Elevador.mat using Guid(134d77429c51c8e4db945410647a4be6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23ea9257f04fe46c46c74d5be10ce02f') in 0.261817 seconds 
+  Import took 0.266404 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.224122 seconds.
+  path: Assets/City Props Bundle/MAPS/barrels/barrel_blue_DefaultMaterial_AlbedoTransparency.png
+  artifactKey: Guid(9af7e1d17f431734caa88ebde358c290) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/City Props Bundle/MAPS/barrels/barrel_blue_DefaultMaterial_AlbedoTransparency.png using Guid(9af7e1d17f431734caa88ebde358c290) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '69015a339cf4679d1c87f8472c3d7745') in 0.084113 seconds 
+  Import took 0.088256 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000213 seconds.
+  path: Assets/City Props Bundle/MAPS/barrels/barrel_red_DefaultMaterial_AO.png
+  artifactKey: Guid(9e8cc1a040453c44ba2260e1fbe5138e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/City Props Bundle/MAPS/barrels/barrel_red_DefaultMaterial_AO.png using Guid(9e8cc1a040453c44ba2260e1fbe5138e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02f44f76bf92947bac379c6a3787ff8d') in 0.011304 seconds 
+  Import took 0.015672 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000175 seconds.
+  path: Assets/City Props Bundle/MAPS/barrels/barrel_red_DefaultMaterial_MetallicSmoothness.png
+  artifactKey: Guid(dde7d17d38cc49a41ba66c1bee6cae52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/City Props Bundle/MAPS/barrels/barrel_red_DefaultMaterial_MetallicSmoothness.png using Guid(dde7d17d38cc49a41ba66c1bee6cae52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5d860273b1913d5bb8991acff44e594') in 0.025662 seconds 
+  Import took 0.029654 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000275 seconds.
+  path: Assets/City Props Bundle/MAPS/barrels/barrel_red_DefaultMaterial_AlbedoTransparency.png
+  artifactKey: Guid(45b62380005040c4097d753d3f968ff9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/City Props Bundle/MAPS/barrels/barrel_red_DefaultMaterial_AlbedoTransparency.png using Guid(45b62380005040c4097d753d3f968ff9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ce22fd539ba4c70ba380f9d86bd3d22') in 0.010475 seconds 
+  Import took 0.015247 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000221 seconds.
+  path: Assets/City Props Bundle/MAPS/barrels/barrel_yellow_DefaultMaterial_AlbedoTransparency.png
+  artifactKey: Guid(e090cee43d9df1c49b0e8a7c62e49ea5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/City Props Bundle/MAPS/barrels/barrel_yellow_DefaultMaterial_AlbedoTransparency.png using Guid(e090cee43d9df1c49b0e8a7c62e49ea5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f46b52eba1f87fbe9b9b3db23a186f1f') in 0.010735 seconds 
+  Import took 0.015074 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000275 seconds.
+  path: Assets/City Props Bundle/MAPS/barrels/barrel_yellow_DefaultMaterial_AO.png
+  artifactKey: Guid(b1bf629ed5c9b5a4088e3b792f25b664) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/City Props Bundle/MAPS/barrels/barrel_yellow_DefaultMaterial_AO.png using Guid(b1bf629ed5c9b5a4088e3b792f25b664) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '073db86b7119025ba64512982eb4a4c3') in 0.009744 seconds 
+  Import took 0.013896 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000176 seconds.
+  path: Assets/City Props Bundle/MAPS/barrels/barrel_blue_DefaultMaterial_AO.png
+  artifactKey: Guid(29e1b69d6a58b344292ed7217a2dba72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/City Props Bundle/MAPS/barrels/barrel_blue_DefaultMaterial_AO.png using Guid(29e1b69d6a58b344292ed7217a2dba72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31de09170fe5599919ea4de86555ad60') in 0.010149 seconds 
+  Import took 0.013939 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000310 seconds.
+  path: Assets/City Props Bundle/MAPS/barrels/barrel_blue_DefaultMaterial_Normal.png
+  artifactKey: Guid(5ccee83f0fa32c64f8aed446e77bd242) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/City Props Bundle/MAPS/barrels/barrel_blue_DefaultMaterial_Normal.png using Guid(5ccee83f0fa32c64f8aed446e77bd242) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3515e65389fd8b4967c022dc39de971c') in 0.021290 seconds 
+  Import took 0.025371 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000179 seconds.
+  path: Assets/City Props Bundle/MAPS/barrels/barrel_red_DefaultMaterial_Normal.png
+  artifactKey: Guid(b22f28de307b3024f85ebd9d9eb196d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/City Props Bundle/MAPS/barrels/barrel_red_DefaultMaterial_Normal.png using Guid(b22f28de307b3024f85ebd9d9eb196d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae003c35fbb122e7d964a0124b3d0051') in 0.012256 seconds 
+  Import took 0.016018 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000231 seconds.
+  path: Assets/City Props Bundle/MAPS/barrels/barrel_blue_DefaultMaterial_MetallicSmoothness.png
+  artifactKey: Guid(cd0c5f15a09a05d469de816850e66356) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/City Props Bundle/MAPS/barrels/barrel_blue_DefaultMaterial_MetallicSmoothness.png using Guid(cd0c5f15a09a05d469de816850e66356) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0361863fcaf039508b981c6c646a4644') in 0.010771 seconds 
+  Import took 0.014986 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000219 seconds.
+  path: Assets/City Props Bundle/MAPS/barrels/barrel_yellow_DefaultMaterial_Normal.png
+  artifactKey: Guid(e5ce2c1206918104289d79d7c434f131) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/City Props Bundle/MAPS/barrels/barrel_yellow_DefaultMaterial_Normal.png using Guid(e5ce2c1206918104289d79d7c434f131) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e2445fe700b8bf54c5d3794d2ee096c') in 0.011035 seconds 
+  Import took 0.015562 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000192 seconds.
+  path: Assets/City Props Bundle/MAPS/barrels/barrel_yellow_DefaultMaterial_MetallicSmoothness.png
+  artifactKey: Guid(d2fb0de3e5b56ae4d936a1f467d636b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/City Props Bundle/MAPS/barrels/barrel_yellow_DefaultMaterial_MetallicSmoothness.png using Guid(d2fb0de3e5b56ae4d936a1f467d636b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9d3cf1fcbe4be12fe199704c33c00de') in 0.016379 seconds 
+  Import took 0.020490 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 12.774832 seconds.
+  path: Assets/Textures/ForkLift/Lifter_Linde_H50D_Desafio_Lift_BaseColor.png
+  artifactKey: Guid(29621d7cf10fe4d4b963c0f2d9be613e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/ForkLift/Lifter_Linde_H50D_Desafio_Lift_BaseColor.png using Guid(29621d7cf10fe4d4b963c0f2d9be613e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de8b200e7eb742245fd544a1f97447fe') in 0.011038 seconds 
+  Import took 0.015995 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.817717 seconds.
+  path: Assets/Textures/ForkLift/Lifter_Linde_H50D_Desafio_Lift_Normal.png
+  artifactKey: Guid(1fc44c2336f3dd24b8ec7368e2fe8183) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/ForkLift/Lifter_Linde_H50D_Desafio_Lift_Normal.png using Guid(1fc44c2336f3dd24b8ec7368e2fe8183) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ca870514d7cbe76eed3db45072a27f0') in 0.011202 seconds 
+  Import took 0.015825 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.926494 seconds.
+  path: Assets/Textures/ForkLift/Lifter_Linde_H50D_Desafio_Lift_Metallic.png
+  artifactKey: Guid(db4870904db4a954c9ea746956bfce37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/ForkLift/Lifter_Linde_H50D_Desafio_Lift_Metallic.png using Guid(db4870904db4a954c9ea746956bfce37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03bbb9374d7bff23e50787aa4b8b0cb4') in 0.011732 seconds 
+  Import took 0.016001 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.470510 seconds.
+  path: Assets/Textures/ForkLift/Lifter_Linde_H50D_Desafio_Lift_Roughness.png
+  artifactKey: Guid(e9aadaaef72edf14991293fbe0ec0f8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/ForkLift/Lifter_Linde_H50D_Desafio_Lift_Roughness.png using Guid(e9aadaaef72edf14991293fbe0ec0f8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90ffc8ab09d62b135ac40b89cf3fb47c') in 0.022891 seconds 
+  Import took 0.026984 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 205.534518 seconds.
+  path: Assets/Models/Lifter_Linde_H50D_Finish.fbx
+  artifactKey: Guid(58115f7384d60de4eb69d6fea0079e2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Lifter_Linde_H50D_Finish.fbx using Guid(58115f7384d60de4eb69d6fea0079e2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a762c9633e8f2428772063926d3ee60a') in 0.729043 seconds 
+  Import took 0.735075 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.070061 seconds.
+  path: Assets/Models/Lifter.controller
+  artifactKey: Guid(2514a5ff025c7c2428cdf4ae4f6d9db4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Lifter.controller using Guid(2514a5ff025c7c2428cdf4ae4f6d9db4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86886528db8d22670ba5670bf8a72a8f') in 0.010215 seconds 
+  Import took 0.015213 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.836572 seconds.
+  path: Assets/Models/Lifter_Linde_H50D_Finish.fbx
+  artifactKey: Guid(58115f7384d60de4eb69d6fea0079e2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Lifter_Linde_H50D_Finish.fbx using Guid(58115f7384d60de4eb69d6fea0079e2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'caca1d22e15dea80e87cbdba517d9c03') in 0.520799 seconds 
+  Import took 0.526607 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 17.421661 seconds.
+  path: Assets/Materials/ForkLift.mat
+  artifactKey: Guid(702a4b95da1e61243bb89fb751d1c173) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/ForkLift.mat using Guid(702a4b95da1e61243bb89fb751d1c173) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30e9b2dfa09030583df60421edf2d992') in 0.020949 seconds 
+  Import took 0.025767 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 21.636960 seconds.
+  path: Assets/Textures/ForkLift/Lifter_Linde_H50D_Desafio_ForkLift_BaseColor.png
+  artifactKey: Guid(428eebd489ec95145ad8d7288f5dc0e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/ForkLift/Lifter_Linde_H50D_Desafio_ForkLift_BaseColor.png using Guid(428eebd489ec95145ad8d7288f5dc0e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27040342400da77e28a6b6f5f2c762c6') in 0.028497 seconds 
+  Import took 0.033082 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.314002 seconds.
+  path: Assets/Textures/ForkLift/Lifter_Linde_H50D_Desafio_ForkLift_Normal.png
+  artifactKey: Guid(8d740575c830cb444a3df5f7081409a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/ForkLift/Lifter_Linde_H50D_Desafio_ForkLift_Normal.png using Guid(8d740575c830cb444a3df5f7081409a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c11eeb4a9118e3349f665483d32ce08e') in 0.011375 seconds 
+  Import took 0.015639 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.001707 seconds.
+  path: Assets/Textures/ForkLift/Lifter_Linde_H50D_Desafio_ForkLift_Metallic.png
+  artifactKey: Guid(a391cd9188ad517418f4b157ae34b965) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/ForkLift/Lifter_Linde_H50D_Desafio_ForkLift_Metallic.png using Guid(a391cd9188ad517418f4b157ae34b965) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '584432f1b203bac8ca0175327034bc85') in 0.010521 seconds 
+  Import took 0.014925 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.865385 seconds.
+  path: Assets/City Props Bundle/MAPS/road_barriers/barrier01_DefaultMaterial_AlbedoTransparency.png
+  artifactKey: Guid(b7fd8da55c4cc7d4bbbd073c95da5c1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/City Props Bundle/MAPS/road_barriers/barrier01_DefaultMaterial_AlbedoTransparency.png using Guid(b7fd8da55c4cc7d4bbbd073c95da5c1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8ee883e4c07a039a9b015298649f69f') in 0.013282 seconds 
+  Import took 0.017586 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000219 seconds.
+  path: Assets/City Props Bundle/MAPS/road_barriers/barrier01_DefaultMaterial_AO.png
+  artifactKey: Guid(c5965e8f2617bf143a646a16287d8be1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/City Props Bundle/MAPS/road_barriers/barrier01_DefaultMaterial_AO.png using Guid(c5965e8f2617bf143a646a16287d8be1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de1d7bf876acbe466f2935d9db6743ec') in 0.012295 seconds 
+  Import took 0.016573 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000206 seconds.
+  path: Assets/City Props Bundle/MAPS/road_barriers/barrier01_DefaultMaterial_AlbedoTransparency.png
+  artifactKey: Guid(b7fd8da55c4cc7d4bbbd073c95da5c1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/City Props Bundle/MAPS/road_barriers/barrier01_DefaultMaterial_AlbedoTransparency.png using Guid(b7fd8da55c4cc7d4bbbd073c95da5c1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8ee883e4c07a039a9b015298649f69f') in 0.012833 seconds 
+  Import took 0.016857 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000216 seconds.
+  path: Assets/City Props Bundle/MAPS/road_barriers/barrier01_DefaultMaterial_AO.png
+  artifactKey: Guid(c5965e8f2617bf143a646a16287d8be1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/City Props Bundle/MAPS/road_barriers/barrier01_DefaultMaterial_AO.png using Guid(c5965e8f2617bf143a646a16287d8be1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de1d7bf876acbe466f2935d9db6743ec') in 0.008292 seconds 
+  Import took 0.012570 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000168 seconds.
+  path: Assets/City Props Bundle/MAPS/benches/bench_01_DefaultMaterial_AlbedoTransparency.png
+  artifactKey: Guid(689d0788b4409fe49a8dbf0076a309c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/City Props Bundle/MAPS/benches/bench_01_DefaultMaterial_AlbedoTransparency.png using Guid(689d0788b4409fe49a8dbf0076a309c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4589ccf9fd98ca605865a4980c9ad03') in 0.013579 seconds 
+  Import took 0.017641 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000236 seconds.
+  path: Assets/City Props Bundle/MAPS/road_barriers/barrier01_DefaultMaterial_Normal.png
+  artifactKey: Guid(118b775d7e7bfaf498cb25d8eff0a8b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/City Props Bundle/MAPS/road_barriers/barrier01_DefaultMaterial_Normal.png using Guid(118b775d7e7bfaf498cb25d8eff0a8b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5b2ca5fdaa612f7627c801f10c2713f') in 0.014735 seconds 
+  Import took 0.018918 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000190 seconds.
+  path: Assets/City Props Bundle/MAPS/road_barriers/barrier01_DefaultMaterial_MetallicSmoothness.png
+  artifactKey: Guid(af86fa8835cae8644b96e23fce2f08d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/City Props Bundle/MAPS/road_barriers/barrier01_DefaultMaterial_MetallicSmoothness.png using Guid(af86fa8835cae8644b96e23fce2f08d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7df08fe87be6c54d2dca3c1d1ece5344') in 0.013105 seconds 
+  Import took 0.017076 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000241 seconds.
+  path: Assets/City Props Bundle/MAPS/benches/bench_01_DefaultMaterial_AO.png
+  artifactKey: Guid(abb0d9fd58310224cbfcf2e5f97aa174) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/City Props Bundle/MAPS/benches/bench_01_DefaultMaterial_AO.png using Guid(abb0d9fd58310224cbfcf2e5f97aa174) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50a65a47f774b83e933e64b165190803') in 0.013245 seconds 
+  Import took 0.017502 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004857 seconds.
+  path: Assets/City Props Bundle/MAPS/benches/bench_01_DefaultMaterial_AO.png
+  artifactKey: Guid(abb0d9fd58310224cbfcf2e5f97aa174) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/City Props Bundle/MAPS/benches/bench_01_DefaultMaterial_AO.png using Guid(abb0d9fd58310224cbfcf2e5f97aa174) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50a65a47f774b83e933e64b165190803') in 0.011752 seconds 
+  Import took 0.016495 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.067288 seconds.
+  path: Assets/Textures/ForkLift/Lifter_Linde_H50D_Desafio_ForkLift_Roughness.png
+  artifactKey: Guid(487888a0d6c5e2744a344a9789ee8546) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/ForkLift/Lifter_Linde_H50D_Desafio_ForkLift_Roughness.png using Guid(487888a0d6c5e2744a344a9789ee8546) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '60c0444d02a947627123b0b95490e867') in 0.018537 seconds 
+  Import took 0.023126 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.005466 seconds.
+  path: Assets/Textures/ForkLift/Lifter_Linde_H50D_Desafio_ForkLift_Roughness.png
+  artifactKey: Guid(487888a0d6c5e2744a344a9789ee8546) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/ForkLift/Lifter_Linde_H50D_Desafio_ForkLift_Roughness.png using Guid(487888a0d6c5e2744a344a9789ee8546) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '60c0444d02a947627123b0b95490e867') in 0.010448 seconds 
+  Import took 0.014898 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.623854 seconds.
+  path: Assets/Models/Lifter_Linde_H50D_Finish.fbx
+  artifactKey: Guid(58115f7384d60de4eb69d6fea0079e2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Lifter_Linde_H50D_Finish.fbx using Guid(58115f7384d60de4eb69d6fea0079e2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5836693d5928f23266bad3dede03cd77') in 0.522189 seconds 
+  Import took 0.527791 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 390.431559 seconds.
+  path: Assets/Materials/Struct.mat
+  artifactKey: Guid(f5ae3d65bff29bb47a3c685e310e887a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Struct.mat using Guid(f5ae3d65bff29bb47a3c685e310e887a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65c1a31c87e8580a746536331b3cee5c') in 0.054579 seconds 
+  Import took 0.061368 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.478811 seconds.
+  path: Assets/City Props Bundle/MAPS/benches/bench_01_DefaultMaterial_MetallicSmoothness.png
+  artifactKey: Guid(91d5b3901c5876d479d949859e139d6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/City Props Bundle/MAPS/benches/bench_01_DefaultMaterial_MetallicSmoothness.png using Guid(91d5b3901c5876d479d949859e139d6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c5ac5381fc0dd7a62a0849064852eadd') in 0.014717 seconds 
+  Import took 0.019110 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000201 seconds.
+  path: Assets/City Props Bundle/MAPS/bins/bin_03_AlbedoTransparency.png
+  artifactKey: Guid(26cf23450cd17ca4fb7f70415c53b7e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/City Props Bundle/MAPS/bins/bin_03_AlbedoTransparency.png using Guid(26cf23450cd17ca4fb7f70415c53b7e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37144d8f694c75ae03857207a528f800') in 0.012846 seconds 
+  Import took 0.017056 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000190 seconds.
+  path: Assets/City Props Bundle/MAPS/bins/bin_02_DefaultMaterial_AlbedoTransparency.png
+  artifactKey: Guid(504515e133c3b2c49836e83e65c53558) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/City Props Bundle/MAPS/bins/bin_02_DefaultMaterial_AlbedoTransparency.png using Guid(504515e133c3b2c49836e83e65c53558) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0341db6099d5fec8dddd9af77ab6b342') in 0.012353 seconds 
+  Import took 0.016250 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000265 seconds.
+  path: Assets/City Props Bundle/MAPS/benches/bench_02_DefaultMaterial_AlbedoTransparency.png
+  artifactKey: Guid(71e9e5ff3ccc3794dbd67e6f7a936bcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/City Props Bundle/MAPS/benches/bench_02_DefaultMaterial_AlbedoTransparency.png using Guid(71e9e5ff3ccc3794dbd67e6f7a936bcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '106dfc241fb9fd2e07fc38b15398f852') in 0.012808 seconds 
+  Import took 0.017033 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000256 seconds.
+  path: Assets/City Props Bundle/MAPS/benches/bench_02_DefaultMaterial_MetallicSmoothness.png
+  artifactKey: Guid(94327898bb3cef54b83d0409c7a460a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/City Props Bundle/MAPS/benches/bench_02_DefaultMaterial_MetallicSmoothness.png using Guid(94327898bb3cef54b83d0409c7a460a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44a4feffb55fb8f1198d875d2adcba34') in 0.015228 seconds 
+  Import took 0.019770 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000221 seconds.
+  path: Assets/City Props Bundle/MAPS/benches/bench_01_DefaultMaterial_MetallicSmoothness.png
+  artifactKey: Guid(91d5b3901c5876d479d949859e139d6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/City Props Bundle/MAPS/benches/bench_01_DefaultMaterial_MetallicSmoothness.png using Guid(91d5b3901c5876d479d949859e139d6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c5ac5381fc0dd7a62a0849064852eadd') in 0.014644 seconds 
+  Import took 0.018834 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000193 seconds.
+  path: Assets/City Props Bundle/MAPS/benches/bench_02_DefaultMaterial_MetallicSmoothness.png
+  artifactKey: Guid(94327898bb3cef54b83d0409c7a460a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/City Props Bundle/MAPS/benches/bench_02_DefaultMaterial_MetallicSmoothness.png using Guid(94327898bb3cef54b83d0409c7a460a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44a4feffb55fb8f1198d875d2adcba34') in 0.012680 seconds 
+  Import took 0.016955 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000315 seconds.
+  path: Assets/City Props Bundle/MAPS/bins/bin_01_DefaultMaterial_MetallicSmoothness.png
+  artifactKey: Guid(5f75484087f60de43a7173dd08c55057) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/City Props Bundle/MAPS/bins/bin_01_DefaultMaterial_MetallicSmoothness.png using Guid(5f75484087f60de43a7173dd08c55057) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e017733531d249751edde367eed9eed6') in 0.013441 seconds 
+  Import took 0.018422 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000238 seconds.
+  path: Assets/City Props Bundle/MAPS/bins/bin_02_DefaultMaterial_MetallicSmoothness.png
+  artifactKey: Guid(3eff52018e251ad46ad9226ff28b2546) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/City Props Bundle/MAPS/bins/bin_02_DefaultMaterial_MetallicSmoothness.png using Guid(3eff52018e251ad46ad9226ff28b2546) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e59ae3660ae238fef8ae11710003669') in 0.018683 seconds 
+  Import took 0.023534 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000199 seconds.
+  path: Assets/City Props Bundle/MAPS/bins/bin_03_MetallicSmoothness.png
+  artifactKey: Guid(d96d2748f019b12449b0a17cb4f5932c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/City Props Bundle/MAPS/bins/bin_03_MetallicSmoothness.png using Guid(d96d2748f019b12449b0a17cb4f5932c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3316b4f027078959ae1532876b4c4114') in 0.014120 seconds 
+  Import took 0.017964 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000232 seconds.
+  path: Assets/City Props Bundle/MAPS/bins/bin_01_DefaultMaterial_AlbedoTransparency.png
+  artifactKey: Guid(216c64ce2a8463c4a982886679af04c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/City Props Bundle/MAPS/bins/bin_01_DefaultMaterial_AlbedoTransparency.png using Guid(216c64ce2a8463c4a982886679af04c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00de7fe140142380df0cb8841a89f47b') in 0.012026 seconds 
+  Import took 0.016303 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.934008 seconds.
+  path: Assets/Textures/ForkLift/Lifter_Linde_H50D_Desafio_Struct_BaseColor.png
+  artifactKey: Guid(554a0d5eee4533b4885320e35b099a69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/ForkLift/Lifter_Linde_H50D_Desafio_Struct_BaseColor.png using Guid(554a0d5eee4533b4885320e35b099a69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90a2f73023cfb256704a9ac7bed1b78e') in 0.011753 seconds 
+  Import took 0.015991 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.788531 seconds.
+  path: Assets/Textures/ForkLift/Lifter_Linde_H50D_Desafio_Struct_Normal.png
+  artifactKey: Guid(15bf5b630dde95047988958977ffb6d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/ForkLift/Lifter_Linde_H50D_Desafio_Struct_Normal.png using Guid(15bf5b630dde95047988958977ffb6d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea78eff51febee535f6f836180882d37') in 0.010619 seconds 
+  Import took 0.015669 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.405813 seconds.
+  path: Assets/Textures/ForkLift/Lifter_Linde_H50D_Desafio_Struct_Metallic.png
+  artifactKey: Guid(4ebf22cce482a0d4e8cfe2c6c65ad72f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/ForkLift/Lifter_Linde_H50D_Desafio_Struct_Metallic.png using Guid(4ebf22cce482a0d4e8cfe2c6c65ad72f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40566729d0fb1780c615176ec4ecc6fd') in 0.010801 seconds 
+  Import took 0.015307 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.317337 seconds.
+  path: Assets/Textures/ForkLift/Lifter_Linde_H50D_Desafio_Struct_Roughness.png
+  artifactKey: Guid(dca7ceb12c598b545b2f4166317fad8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/ForkLift/Lifter_Linde_H50D_Desafio_Struct_Roughness.png using Guid(dca7ceb12c598b545b2f4166317fad8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e77d3661cfe0c6cd519deb0f72199d4') in 0.012467 seconds 
+  Import took 0.017137 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 21.813633 seconds.
+  path: Assets/Materials/Cabin.mat
+  artifactKey: Guid(4b6b44d9f6d22924ebc3c58d0790c264) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Cabin.mat using Guid(4b6b44d9f6d22924ebc3c58d0790c264) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b156acc4a52682d7d18dbbf901a49ba3') in 0.023481 seconds 
+  Import took 0.027859 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 19.381395 seconds.
+  path: Assets/City Props Bundle/MAPS/benches/bench_01_DefaultMaterial_Normal.png
+  artifactKey: Guid(0c4c6dca83d2f3d4d9f352ef812c3245) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/City Props Bundle/MAPS/benches/bench_01_DefaultMaterial_Normal.png using Guid(0c4c6dca83d2f3d4d9f352ef812c3245) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '463c0ad9ea22e10b528843cee9357df2') in 0.014687 seconds 
+  Import took 0.018919 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000783 seconds.
+  path: Assets/City Props Bundle/MAPS/benches/bench_01_DefaultMaterial_Normal.png
+  artifactKey: Guid(0c4c6dca83d2f3d4d9f352ef812c3245) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/City Props Bundle/MAPS/benches/bench_01_DefaultMaterial_Normal.png using Guid(0c4c6dca83d2f3d4d9f352ef812c3245) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '463c0ad9ea22e10b528843cee9357df2') in 0.014122 seconds 
+  Import took 0.018402 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.060417 seconds.
+  path: Assets/City Props Bundle/MAPS/benches/bench_02_DefaultMaterial_AO.png
+  artifactKey: Guid(7b14b16d933b5f242bc0fb63d3590436) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/City Props Bundle/MAPS/benches/bench_02_DefaultMaterial_AO.png using Guid(7b14b16d933b5f242bc0fb63d3590436) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15a081a67c2100d33f3b7bda0fcf05e0') in 0.013739 seconds 
+  Import took 0.018009 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000202 seconds.
+  path: Assets/City Props Bundle/MAPS/bins/bin_01_DefaultMaterial_AO.png
+  artifactKey: Guid(6a4ce290c6dee074bb4ce0b53e3642ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/City Props Bundle/MAPS/bins/bin_01_DefaultMaterial_AO.png using Guid(6a4ce290c6dee074bb4ce0b53e3642ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd3f0c6bc6598eac86b2e0f07ae00bde') in 0.012948 seconds 
+  Import took 0.016694 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000195 seconds.
+  path: Assets/City Props Bundle/MAPS/benches/bench_02_DefaultMaterial_Normal.png
+  artifactKey: Guid(0fe733df7500ec349a4acd91f3a26bfc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/City Props Bundle/MAPS/benches/bench_02_DefaultMaterial_Normal.png using Guid(0fe733df7500ec349a4acd91f3a26bfc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d2784615329465ced9fd90908ca6b54') in 0.014699 seconds 
+  Import took 0.018537 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.234039 seconds.
+  path: Assets/City Props Bundle/MAPS/bins/bin_01_DefaultMaterial_Normal.png
+  artifactKey: Guid(71b90957d519cf4488e091bd2ac70ef9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/City Props Bundle/MAPS/bins/bin_01_DefaultMaterial_Normal.png using Guid(71b90957d519cf4488e091bd2ac70ef9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b672e2e48ff353e3f66d835663e775e') in 0.013697 seconds 
+  Import took 0.018011 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000351 seconds.
+  path: Assets/City Props Bundle/MAPS/bins/bin_02_DefaultMaterial_AO.png
+  artifactKey: Guid(69b18b754cc9b0b40b58fe41ba40d16f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/City Props Bundle/MAPS/bins/bin_02_DefaultMaterial_AO.png using Guid(69b18b754cc9b0b40b58fe41ba40d16f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12fd2692dd35bcc4c8f3897e4069a18f') in 0.011683 seconds 
+  Import took 0.016047 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.048650 seconds.
+  path: Assets/City Props Bundle/MAPS/bins/bin_02_DefaultMaterial_Normal.png
+  artifactKey: Guid(7080cf9ad6b9bfc409f885bc31745f40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/City Props Bundle/MAPS/bins/bin_02_DefaultMaterial_Normal.png using Guid(7080cf9ad6b9bfc409f885bc31745f40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0bc617f63cc324f66d5de34f605d22f4') in 0.014833 seconds 
+  Import took 0.020041 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.292768 seconds.
+  path: Assets/City Props Bundle/MAPS/bins/bin_03_AO.png
+  artifactKey: Guid(a207c7ddd1c842d409fad011adb0fd27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/City Props Bundle/MAPS/bins/bin_03_AO.png using Guid(a207c7ddd1c842d409fad011adb0fd27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c5d9717f6e123cf8a42fc70388376e7e') in 0.012720 seconds 
+  Import took 0.016967 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000186 seconds.
+  path: Assets/City Props Bundle/MAPS/bins/bin_03_Normal.png
+  artifactKey: Guid(8ebbe78cf1cf0ee49b9d9e11a8d79cad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/City Props Bundle/MAPS/bins/bin_03_Normal.png using Guid(8ebbe78cf1cf0ee49b9d9e11a8d79cad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26aa3b5f4ecb240751e8811a348b2623') in 0.013569 seconds 
+  Import took 0.017776 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000182 seconds.
+  path: Assets/City Props Bundle/MAPS/bins/bin_03_AO.png
+  artifactKey: Guid(a207c7ddd1c842d409fad011adb0fd27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/City Props Bundle/MAPS/bins/bin_03_AO.png using Guid(a207c7ddd1c842d409fad011adb0fd27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c5d9717f6e123cf8a42fc70388376e7e') in 0.007845 seconds 
+  Import took 0.011853 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000220 seconds.
+  path: Assets/City Props Bundle/MAPS/bins/bin_logo_alpha.png
+  artifactKey: Guid(16d12eaaedb603947a3642280a904af5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/City Props Bundle/MAPS/bins/bin_logo_alpha.png using Guid(16d12eaaedb603947a3642280a904af5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0dd41db868b2247489eaf7a3ab8fc9d') in 0.012975 seconds 
+  Import took 0.017375 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000171 seconds.
+  path: Assets/City Props Bundle/MAPS/bins/bin_03_Normal.png
+  artifactKey: Guid(8ebbe78cf1cf0ee49b9d9e11a8d79cad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/City Props Bundle/MAPS/bins/bin_03_Normal.png using Guid(8ebbe78cf1cf0ee49b9d9e11a8d79cad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26aa3b5f4ecb240751e8811a348b2623') in 0.013970 seconds 
+  Import took 0.017912 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000182 seconds.
+  path: Assets/City Props Bundle/MAPS/bins/bin_logo.png
+  artifactKey: Guid(1494aa23db5396040860d4442de43488) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/City Props Bundle/MAPS/bins/bin_logo.png using Guid(1494aa23db5396040860d4442de43488) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa1fd23debe9b80b928528f42d57d054') in 0.014177 seconds 
+  Import took 0.018070 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.014326 seconds.
+  path: Assets/City Props Bundle/MAPS/containers/Non_ruined/container_blue_non_ruined_DefaultMaterial_AlbedoTransparency.png
+  artifactKey: Guid(9908d324a8678a34593ae9a3be6d5d9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/City Props Bundle/MAPS/containers/Non_ruined/container_blue_non_ruined_DefaultMaterial_AlbedoTransparency.png using Guid(9908d324a8678a34593ae9a3be6d5d9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65aec9a856cdc903c933fb605f10d426') in 0.013899 seconds 
+  Import took 0.018103 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000183 seconds.
+  path: Assets/City Props Bundle/MAPS/containers/Non_ruined/container_blue_non_ruined_DefaultMaterial_MetallicSmoothness.png
+  artifactKey: Guid(6ac271cb3a1a1914097b841cf4771065) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/City Props Bundle/MAPS/containers/Non_ruined/container_blue_non_ruined_DefaultMaterial_MetallicSmoothness.png using Guid(6ac271cb3a1a1914097b841cf4771065) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd52271f4b2ee44bb009b107e2e60c072') in 0.015833 seconds 
+  Import took 0.019806 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000232 seconds.
+  path: Assets/City Props Bundle/MAPS/containers/Non_ruined/container_blue_non_ruined_DefaultMaterial_AO.png
+  artifactKey: Guid(985e6ebecc82c6841b2184d4037eda80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/City Props Bundle/MAPS/containers/Non_ruined/container_blue_non_ruined_DefaultMaterial_AO.png using Guid(985e6ebecc82c6841b2184d4037eda80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37b76aa3d61bcad19eb99363f9745444') in 0.012165 seconds 
+  Import took 0.017058 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.264511 seconds.
+  path: Assets/City Props Bundle/MAPS/containers/Non_ruined/container_blue_non_ruined_DefaultMaterial_Normal.png
+  artifactKey: Guid(fdad2aed34fd4504e9d838539a49c6eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/City Props Bundle/MAPS/containers/Non_ruined/container_blue_non_ruined_DefaultMaterial_Normal.png using Guid(fdad2aed34fd4504e9d838539a49c6eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aec35b7c0157a3606f808ba00bba5a88') in 0.014119 seconds 
+  Import took 0.018335 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000196 seconds.
+  path: Assets/City Props Bundle/MAPS/containers/Ruined/container_blue_ruined_DefaultMaterial_AlbedoTransparency.png
+  artifactKey: Guid(22fd6371ea71d9242a1bec9572cd747e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/City Props Bundle/MAPS/containers/Ruined/container_blue_ruined_DefaultMaterial_AlbedoTransparency.png using Guid(22fd6371ea71d9242a1bec9572cd747e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '706a2fa79f371e65940250906aaea1da') in 0.015527 seconds 
+  Import took 0.020454 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000246 seconds.
+  path: Assets/City Props Bundle/MAPS/containers/Ruined/container_blue_ruined_DefaultMaterial_AO.png
+  artifactKey: Guid(b827a665f2a59d848b0e7098cf16434d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/City Props Bundle/MAPS/containers/Ruined/container_blue_ruined_DefaultMaterial_AO.png using Guid(b827a665f2a59d848b0e7098cf16434d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f35b482e1961a3d81f08649e2e1c3db1') in 0.011756 seconds 
+  Import took 0.016210 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.374673 seconds.
+  path: Assets/City Props Bundle/MAPS/containers/Ruined/container_blue_ruined_DefaultMaterial_MetallicSmoothness.png
+  artifactKey: Guid(09f0a543e137e474c81cc6454f7f2c80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/City Props Bundle/MAPS/containers/Ruined/container_blue_ruined_DefaultMaterial_MetallicSmoothness.png using Guid(09f0a543e137e474c81cc6454f7f2c80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0aacfa7a59f43b98741f5b3aaa3a484c') in 0.012507 seconds 
+  Import took 0.016756 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000199 seconds.
+  path: Assets/City Props Bundle/MAPS/containers/Ruined/container_blue_ruined_DefaultMaterial_Normal.png
+  artifactKey: Guid(757a96e298b5d494d9c1c3ea93683b4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/City Props Bundle/MAPS/containers/Ruined/container_blue_ruined_DefaultMaterial_Normal.png using Guid(757a96e298b5d494d9c1c3ea93683b4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '201b64010922fa842b2a119fab1e9d79') in 0.014117 seconds 
+  Import took 0.018240 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000207 seconds.
+  path: Assets/City Props Bundle/MAPS/containers/Non_ruined/container_red_non_ruined_DefaultMaterial_AlbedoTransparency.png
+  artifactKey: Guid(6e3bd1b0348762840bac8d3eb0d09cbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/City Props Bundle/MAPS/containers/Non_ruined/container_red_non_ruined_DefaultMaterial_AlbedoTransparency.png using Guid(6e3bd1b0348762840bac8d3eb0d09cbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c343e904987a605a6f9074e043167bb') in 0.013366 seconds 
+  Import took 0.017398 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004735 seconds.
+  path: Assets/City Props Bundle/MAPS/containers/Non_ruined/container_red_non_ruined_DefaultMaterial_AO.png
+  artifactKey: Guid(77326b076101697489ea44b4567ec1e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/City Props Bundle/MAPS/containers/Non_ruined/container_red_non_ruined_DefaultMaterial_AO.png using Guid(77326b076101697489ea44b4567ec1e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3cdb79c7ee3f8bcf2f653cd8ff162b77') in 0.013642 seconds 
+  Import took 0.020070 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000281 seconds.
+  path: Assets/City Props Bundle/MAPS/containers/Non_ruined/container_red_non_ruined_DefaultMaterial_Normal.png
+  artifactKey: Guid(de3b2fe268da3c64b9dc1c77f8e493e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/City Props Bundle/MAPS/containers/Non_ruined/container_red_non_ruined_DefaultMaterial_Normal.png using Guid(de3b2fe268da3c64b9dc1c77f8e493e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48aaedf70cbec401b0b0dba1fa9a2f81') in 0.016111 seconds 
+  Import took 0.020885 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000212 seconds.
+  path: Assets/City Props Bundle/MAPS/containers/Ruined/container_red_ruined_DefaultMaterial_AlbedoTransparency.png
+  artifactKey: Guid(71730b5b89c43614c802ac96194c50b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/City Props Bundle/MAPS/containers/Ruined/container_red_ruined_DefaultMaterial_AlbedoTransparency.png using Guid(71730b5b89c43614c802ac96194c50b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd24203ed246c7576fbe2397bbcc8ba57') in 0.014764 seconds 
+  Import took 0.019140 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000254 seconds.
+  path: Assets/City Props Bundle/MAPS/containers/Ruined/container_red_ruined_DefaultMaterial_MetallicSmoothness.png
+  artifactKey: Guid(3ae9219d4d4326948ae0998cfab09d15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/City Props Bundle/MAPS/containers/Ruined/container_red_ruined_DefaultMaterial_MetallicSmoothness.png using Guid(3ae9219d4d4326948ae0998cfab09d15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1cd18b32d8d7df3604b517429ef26973') in 0.017208 seconds 
+  Import took 0.022818 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000266 seconds.
+  path: Assets/City Props Bundle/MAPS/containers/Non_ruined/container_yellow_non_ruined_DefaultMaterial_AlbedoTransparency.png
+  artifactKey: Guid(d8a26103923d1fd4e8facfda7aae99c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/City Props Bundle/MAPS/containers/Non_ruined/container_yellow_non_ruined_DefaultMaterial_AlbedoTransparency.png using Guid(d8a26103923d1fd4e8facfda7aae99c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '817926d2688a840a633f14c45cb54813') in 0.012701 seconds 
+  Import took 0.016964 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000213 seconds.
+  path: Assets/City Props Bundle/MAPS/containers/Ruined/container_red_ruined_DefaultMaterial_Normal.png
+  artifactKey: Guid(d27849c53b7939843a73eda185cf2eab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/City Props Bundle/MAPS/containers/Ruined/container_red_ruined_DefaultMaterial_Normal.png using Guid(d27849c53b7939843a73eda185cf2eab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e222e0a9451d7db4dbe9ccfe868a94e2') in 0.014694 seconds 
+  Import took 0.019109 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000230 seconds.
+  path: Assets/City Props Bundle/MAPS/containers/Ruined/container_red_ruined_DefaultMaterial_AO.png
+  artifactKey: Guid(ef94ac8c693dfe148952f014528c4844) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/City Props Bundle/MAPS/containers/Ruined/container_red_ruined_DefaultMaterial_AO.png using Guid(ef94ac8c693dfe148952f014528c4844) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9985e73af0d8ed812cd87c2faac3f006') in 0.012257 seconds 
+  Import took 0.016579 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000176 seconds.
+  path: Assets/City Props Bundle/MAPS/containers/Non_ruined/container_yellow_non_ruined_DefaultMaterial_AO.png
+  artifactKey: Guid(af54842601674094f86a7f87a0cb5810) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/City Props Bundle/MAPS/containers/Non_ruined/container_yellow_non_ruined_DefaultMaterial_AO.png using Guid(af54842601674094f86a7f87a0cb5810) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cecbb076d5c3eea519be3653e7df6c9f') in 0.011894 seconds 
+  Import took 0.015802 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000215 seconds.
+  path: Assets/City Props Bundle/MAPS/containers/Non_ruined/container_red_non_ruined_DefaultMaterial_MetallicSmoothness.png
+  artifactKey: Guid(466925af318e6594c8b7b1da01307779) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/City Props Bundle/MAPS/containers/Non_ruined/container_red_non_ruined_DefaultMaterial_MetallicSmoothness.png using Guid(466925af318e6594c8b7b1da01307779) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '455b0afffef4a34b1ea411f0f69fcfd1') in 0.014992 seconds 
+  Import took 0.019663 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.349878 seconds.
+  path: Assets/Textures/ForkLift/Lifter_Linde_H50D_Desafio_ForkLift_Height.png
+  artifactKey: Guid(8df34539b38bea14ebf27ff4095ef80a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/ForkLift/Lifter_Linde_H50D_Desafio_ForkLift_Height.png using Guid(8df34539b38bea14ebf27ff4095ef80a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '519f0f4c454f481adf5c6ea151af6de1') in 0.024794 seconds 
+  Import took 0.029098 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000210 seconds.
+  path: Assets/Textures/ForkLift/Lifter_Linde_H50D_Desafio_Struct_Height.png
+  artifactKey: Guid(aea1c47bb24f09e4680a45bf5b1881ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/ForkLift/Lifter_Linde_H50D_Desafio_Struct_Height.png using Guid(aea1c47bb24f09e4680a45bf5b1881ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4388ecb768915a9db7d1927f8c4afaa') in 0.015770 seconds 
+  Import took 0.020111 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000180 seconds.
+  path: Assets/Textures/ForkLift/Lifter_Linde_H50D_Desafio_Lift_Height.png
+  artifactKey: Guid(cfeacc44383317648acfa8ad6b2d7dc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/ForkLift/Lifter_Linde_H50D_Desafio_Lift_Height.png using Guid(cfeacc44383317648acfa8ad6b2d7dc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dcc9395f1e74ca7df8c3275d535c9ec5') in 0.012300 seconds 
+  Import took 0.016266 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000194 seconds.
+  path: Assets/Textures/ForkLift/Lifter_Linde_H50D_Desafio_ForkLift_Height.png
+  artifactKey: Guid(8df34539b38bea14ebf27ff4095ef80a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/ForkLift/Lifter_Linde_H50D_Desafio_ForkLift_Height.png using Guid(8df34539b38bea14ebf27ff4095ef80a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '519f0f4c454f481adf5c6ea151af6de1') in 0.007606 seconds 
+  Import took 0.011820 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 44.650269 seconds.
+  path: Assets/Models/Lifter_Linde_H50D_Finish.fbx
+  artifactKey: Guid(58115f7384d60de4eb69d6fea0079e2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Lifter_Linde_H50D_Finish.fbx using Guid(58115f7384d60de4eb69d6fea0079e2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f06e83a954de84b36a1511cd7e1d33e') in 0.545690 seconds 
+  Import took 0.551151 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 12.226553 seconds.
+  path: Assets/City Props Bundle/MAPS/mailbox/mailbox_street_DefaultMaterial_AlbedoTransparency.png
+  artifactKey: Guid(06813e9ef3cd2ce428aa54b745f9531a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/City Props Bundle/MAPS/mailbox/mailbox_street_DefaultMaterial_AlbedoTransparency.png using Guid(06813e9ef3cd2ce428aa54b745f9531a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f420723cc24de47570994631d5cd94e9') in 0.012515 seconds 
+  Import took 0.018524 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000225 seconds.
+  path: Assets/City Props Bundle/MAPS/road_barriers/road_barrier_concrete_DefaultMaterial_AO.png
+  artifactKey: Guid(e0ccdda9c511f5c4391aca94885148d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/City Props Bundle/MAPS/road_barriers/road_barrier_concrete_DefaultMaterial_AO.png using Guid(e0ccdda9c511f5c4391aca94885148d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff0bb9ac2db7f492634b5c91e911e7c4') in 0.010962 seconds 
+  Import took 0.015998 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000237 seconds.
+  path: Assets/City Props Bundle/MAPS/road_barriers/road_barrier_02_Material_Normal.png
+  artifactKey: Guid(3dcb46679354a004fb610a5487cfbd19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/City Props Bundle/MAPS/road_barriers/road_barrier_02_Material_Normal.png using Guid(3dcb46679354a004fb610a5487cfbd19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1bed96f67e0ea99456e4cdc6a4515989') in 0.014743 seconds 
+  Import took 0.019210 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000179 seconds.
+  path: Assets/City Props Bundle/MAPS/road_barriers/road_barrier_concrete_DefaultMaterial_MetallicSmoothness.png
+  artifactKey: Guid(b478f989721efcc47be00ff8da27f9f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/City Props Bundle/MAPS/road_barriers/road_barrier_concrete_DefaultMaterial_MetallicSmoothness.png using Guid(b478f989721efcc47be00ff8da27f9f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e33586e544846f119ac9331069cb68de') in 0.014348 seconds 
+  Import took 0.018111 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000194 seconds.
+  path: Assets/City Props Bundle/MAPS/mailbox/mailbox_street_DefaultMaterial_AO.png
+  artifactKey: Guid(b353afc61d1409645ac2444fa8c5acef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/City Props Bundle/MAPS/mailbox/mailbox_street_DefaultMaterial_AO.png using Guid(b353afc61d1409645ac2444fa8c5acef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9386c3dfe9bfabaa10d5fb6ae4172c4b') in 0.015456 seconds 
+  Import took 0.019209 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000214 seconds.
+  path: Assets/City Props Bundle/MAPS/road_barriers/road_barrier_02_Material_AlbedoTransparency.png
+  artifactKey: Guid(5e737a6f31573c745b640e0993274b62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/City Props Bundle/MAPS/road_barriers/road_barrier_02_Material_AlbedoTransparency.png using Guid(5e737a6f31573c745b640e0993274b62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a528b81cd5c0934490e5e4f35c54b2c9') in 0.012185 seconds 
+  Import took 0.016333 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000207 seconds.
+  path: Assets/City Props Bundle/MAPS/mailbox/mailbox_street_DefaultMaterial_AlbedoTransparency.png
+  artifactKey: Guid(06813e9ef3cd2ce428aa54b745f9531a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/City Props Bundle/MAPS/mailbox/mailbox_street_DefaultMaterial_AlbedoTransparency.png using Guid(06813e9ef3cd2ce428aa54b745f9531a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f420723cc24de47570994631d5cd94e9') in 0.012039 seconds 
+  Import took 0.016521 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000220 seconds.
+  path: Assets/City Props Bundle/MAPS/mailbox/mailbox_street_DefaultMaterial_MetallicSmoothness.png
+  artifactKey: Guid(4d207a50abaea1f49868499d3d8463bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/City Props Bundle/MAPS/mailbox/mailbox_street_DefaultMaterial_MetallicSmoothness.png using Guid(4d207a50abaea1f49868499d3d8463bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c6fa7334c775d18809bf2827e415be5') in 0.015236 seconds 
+  Import took 0.019726 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000230 seconds.
+  path: Assets/City Props Bundle/MAPS/road_barriers/road_barrier_02_Material_AO.png
+  artifactKey: Guid(d91e6105c2326ec47bd5f2eb5944e71b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/City Props Bundle/MAPS/road_barriers/road_barrier_02_Material_AO.png using Guid(d91e6105c2326ec47bd5f2eb5944e71b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42a60ceea2892e631796927e6e46c53b') in 0.013993 seconds 
+  Import took 0.018607 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000205 seconds.
+  path: Assets/City Props Bundle/MAPS/road_barriers/road_barrier_concrete_DefaultMaterial_Normal.png
+  artifactKey: Guid(80e6ebd67e3635444b87ef68369cc038) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/City Props Bundle/MAPS/road_barriers/road_barrier_concrete_DefaultMaterial_Normal.png using Guid(80e6ebd67e3635444b87ef68369cc038) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a84db468873eb4fb27d50a6967916e3d') in 0.013634 seconds 
+  Import took 0.018256 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000284 seconds.
+  path: Assets/City Props Bundle/MAPS/road_barriers/road_barrier_concrete_DefaultMaterial_AlbedoTransparency.png
+  artifactKey: Guid(8fc2c6568f10a2f4dabb9b0c46191c97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/City Props Bundle/MAPS/road_barriers/road_barrier_concrete_DefaultMaterial_AlbedoTransparency.png using Guid(8fc2c6568f10a2f4dabb9b0c46191c97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1710758d48636b389ec58b7de886091f') in 0.011382 seconds 
+  Import took 0.015667 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000277 seconds.
+  path: Assets/City Props Bundle/MAPS/mailbox/mailbox_street_DefaultMaterial_Normal.png
+  artifactKey: Guid(191d4a308f64a754a9074e1bda02e497) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/City Props Bundle/MAPS/mailbox/mailbox_street_DefaultMaterial_Normal.png using Guid(191d4a308f64a754a9074e1bda02e497) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d9704008dd6905a6f2336b0d5196355') in 0.014325 seconds 
+  Import took 0.018970 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000238 seconds.
+  path: Assets/City Props Bundle/MAPS/road_barriers/road_barrier_02_Material_MetallicSmoothness.png
+  artifactKey: Guid(1d1ef7bb9b572e145996cc628f5f6099) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/City Props Bundle/MAPS/road_barriers/road_barrier_02_Material_MetallicSmoothness.png using Guid(1d1ef7bb9b572e145996cc628f5f6099) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2cdff595c6a42cb6499e5ca570ee500f') in 0.012859 seconds 
+  Import took 0.017319 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 35.377477 seconds.
+  path: Assets/Materials/RedPaint.mat
+  artifactKey: Guid(4d94c878f589885459b437b0c4570351) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/RedPaint.mat using Guid(4d94c878f589885459b437b0c4570351) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b11942f831628dc5c4afb8f60acf6db9') in 0.022225 seconds 
+  Import took 0.027061 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 258.130131 seconds.
+  path: Assets/City Props Bundle/MAPS/mailbox/mailbox_logo.png
+  artifactKey: Guid(09d5a5cbc5ba6984d8c1a87de748ae74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/City Props Bundle/MAPS/mailbox/mailbox_logo.png using Guid(09d5a5cbc5ba6984d8c1a87de748ae74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5e9d358fe93113734f7d671878d45ec') in 0.012073 seconds 
+  Import took 0.016576 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000231 seconds.
+  path: Assets/City Props Bundle/MAPS/mailbox/mailbox_logo_alpha.png
+  artifactKey: Guid(c081bff2dca614d48bd2aed78d8a8f93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/City Props Bundle/MAPS/mailbox/mailbox_logo_alpha.png using Guid(c081bff2dca614d48bd2aed78d8a8f93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd30b8cab27038ab75e0aa41e559f93e7') in 0.010861 seconds 
+  Import took 0.015180 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000250 seconds.
+  path: Assets/City Props Bundle/MAPS/mailbox/mailbox_logo.png
+  artifactKey: Guid(09d5a5cbc5ba6984d8c1a87de748ae74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/City Props Bundle/MAPS/mailbox/mailbox_logo.png using Guid(09d5a5cbc5ba6984d8c1a87de748ae74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5e9d358fe93113734f7d671878d45ec') in 0.019927 seconds 
+  Import took 0.028419 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.013629 seconds.
+  path: Assets/City Props Bundle/MAPS/mailbox/mailbox_logo_alpha.png
+  artifactKey: Guid(c081bff2dca614d48bd2aed78d8a8f93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/City Props Bundle/MAPS/mailbox/mailbox_logo_alpha.png using Guid(c081bff2dca614d48bd2aed78d8a8f93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd30b8cab27038ab75e0aa41e559f93e7') in 0.009356 seconds 
+  Import took 0.016335 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.460531 seconds.
+  path: Assets/City Props Bundle/MAPS/dumpsters/clean/dumpster_02_green_Material_Normal.png
+  artifactKey: Guid(0f3ce8a8137e38b47ac073a56dcbd3ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/City Props Bundle/MAPS/dumpsters/clean/dumpster_02_green_Material_Normal.png using Guid(0f3ce8a8137e38b47ac073a56dcbd3ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e60e1c13e47221f11e5aa983968a9f2') in 0.015264 seconds 
+  Import took 0.019547 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000209 seconds.
+  path: Assets/City Props Bundle/MAPS/dumpsters/dirty/dumpster_red_dirty_Material.001_AlbedoTransparency.png
+  artifactKey: Guid(66256cb8ddf12334c92c3b6e949039b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/City Props Bundle/MAPS/dumpsters/dirty/dumpster_red_dirty_Material.001_AlbedoTransparency.png using Guid(66256cb8ddf12334c92c3b6e949039b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f37a403f9ecbbe7dea4ae9f583422ae') in 0.017593 seconds 
+  Import took 0.022091 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000222 seconds.
+  path: Assets/City Props Bundle/MAPS/fire_hydrant/fire_hydrant_DefaultMaterial_AO.png
+  artifactKey: Guid(0dead2f110bddc54981f34ba52f42caa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/City Props Bundle/MAPS/fire_hydrant/fire_hydrant_DefaultMaterial_AO.png using Guid(0dead2f110bddc54981f34ba52f42caa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d1931d16bb5fea17c99b1db9edf6c31') in 0.011675 seconds 
+  Import took 0.016003 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000236 seconds.
+  path: Assets/City Props Bundle/MAPS/fire_hydrant/fire_hydrant_DefaultMaterial_MetallicSmoothness.png
+  artifactKey: Guid(6ee4acb0fcc2a204e828b17d453ed881) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/City Props Bundle/MAPS/fire_hydrant/fire_hydrant_DefaultMaterial_MetallicSmoothness.png using Guid(6ee4acb0fcc2a204e828b17d453ed881) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b45c6c1236cada07897467ce12b1ade') in 0.015899 seconds 
+  Import took 0.020063 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000164 seconds.
+  path: Assets/City Props Bundle/MAPS/dumpsters/clean/dumpster_01_red_clean_Material.001_Normal.png
+  artifactKey: Guid(f1173d67e3cf4964998e412b7ea29a46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/City Props Bundle/MAPS/dumpsters/clean/dumpster_01_red_clean_Material.001_Normal.png using Guid(f1173d67e3cf4964998e412b7ea29a46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4323664918e62483bd5a1ad4c67a277') in 0.013954 seconds 
+  Import took 0.017728 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000189 seconds.
+  path: Assets/City Props Bundle/MAPS/containers/Non_ruined/container_yellow_non_ruined_DefaultMaterial_Normal.png
+  artifactKey: Guid(171565735752fc943b5df3f6f893db65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/City Props Bundle/MAPS/containers/Non_ruined/container_yellow_non_ruined_DefaultMaterial_Normal.png using Guid(171565735752fc943b5df3f6f893db65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51b7f1225025c260a58281dbe5ebf42c') in 0.016431 seconds 
+  Import took 0.020826 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000174 seconds.
+  path: Assets/City Props Bundle/MAPS/containers/Ruined/container_yellow_ruined_DefaultMaterial_AlbedoTransparency.png
+  artifactKey: Guid(4446ea7312a0b844cb61c243b686447a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/City Props Bundle/MAPS/containers/Ruined/container_yellow_ruined_DefaultMaterial_AlbedoTransparency.png using Guid(4446ea7312a0b844cb61c243b686447a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a313358f5dc0d6a89f4dd1b36820b1c5') in 0.013361 seconds 
+  Import took 0.017415 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000174 seconds.
+  path: Assets/City Props Bundle/MAPS/dumpsters/clean/dumpster_02_green_Material_AlbedoTransparency_Material_AlbedoTransparency.png
+  artifactKey: Guid(bf75fe79bde521345a395775b6b157a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/City Props Bundle/MAPS/dumpsters/clean/dumpster_02_green_Material_AlbedoTransparency_Material_AlbedoTransparency.png using Guid(bf75fe79bde521345a395775b6b157a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82b6462caa6ca6b1dacea129e1df5ddb') in 0.012185 seconds 
+  Import took 0.016058 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000196 seconds.
+  path: Assets/City Props Bundle/MAPS/containers/Ruined/container_yellow_ruined_DefaultMaterial_AO.png
+  artifactKey: Guid(d742c12f919ed0b47a3a2253942ac32c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/City Props Bundle/MAPS/containers/Ruined/container_yellow_ruined_DefaultMaterial_AO.png using Guid(d742c12f919ed0b47a3a2253942ac32c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ce6259d25033a91b9c5b64bdc7ffad6') in 0.013067 seconds 
+  Import took 0.017439 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000205 seconds.
+  path: Assets/City Props Bundle/MAPS/dumpsters/dirty/dumpster_01_red_dirty_Material.001_AO.png
+  artifactKey: Guid(29d3c2b83d437374a80be30d351ce4b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/City Props Bundle/MAPS/dumpsters/dirty/dumpster_01_red_dirty_Material.001_AO.png using Guid(29d3c2b83d437374a80be30d351ce4b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07f27186425cc8553bde43149c9c8fa6') in 0.012365 seconds 
+  Import took 0.016682 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000204 seconds.
+  path: Assets/City Props Bundle/MAPS/dumpsters/clean/dumpster_02_blue_Material_AlbedoTransparency.png
+  artifactKey: Guid(3e3244518af029e47ac65f6fa03ea626) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/City Props Bundle/MAPS/dumpsters/clean/dumpster_02_blue_Material_AlbedoTransparency.png using Guid(3e3244518af029e47ac65f6fa03ea626) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '892ecff0128df632bad943e363aa7c66') in 0.012022 seconds 
+  Import took 0.016245 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000192 seconds.
+  path: Assets/City Props Bundle/MAPS/containers/Ruined/container_yellow_ruined_DefaultMaterial_MetallicSmoothness.png
+  artifactKey: Guid(ec468d7f942ddeb4a9bfc6f205825fc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/City Props Bundle/MAPS/containers/Ruined/container_yellow_ruined_DefaultMaterial_MetallicSmoothness.png using Guid(ec468d7f942ddeb4a9bfc6f205825fc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b11f8859ca2ed9f40df20e9cd48161eb') in 0.013738 seconds 
+  Import took 0.017429 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000178 seconds.
+  path: Assets/City Props Bundle/MAPS/dumpsters/clean/dumpster_02_blue_Material_MetallicSmoothness.png
+  artifactKey: Guid(e025d100bdf72ee439f87e4934d52906) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/City Props Bundle/MAPS/dumpsters/clean/dumpster_02_blue_Material_MetallicSmoothness.png using Guid(e025d100bdf72ee439f87e4934d52906) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8fb64e46aed9156005273afa25642f68') in 0.013014 seconds 
+  Import took 0.016947 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000173 seconds.
+  path: Assets/City Props Bundle/MAPS/dumpsters/clean/dumpster_02_blue_Material_Normal.png
+  artifactKey: Guid(4cc8aa01140543146bb826cc377ccf1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/City Props Bundle/MAPS/dumpsters/clean/dumpster_02_blue_Material_Normal.png using Guid(4cc8aa01140543146bb826cc377ccf1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c20210aa0205ee8f3479e672334337ea') in 0.014230 seconds 
+  Import took 0.018397 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000214 seconds.
+  path: Assets/City Props Bundle/MAPS/fire_hydrant/fire_hydrant_DefaultMaterial_AlbedoTransparency.png
+  artifactKey: Guid(a7958e51da66d594d8874b667339015d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/City Props Bundle/MAPS/fire_hydrant/fire_hydrant_DefaultMaterial_AlbedoTransparency.png using Guid(a7958e51da66d594d8874b667339015d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'efedde589a7f50ff9a2939ba3e103644') in 0.012415 seconds 
+  Import took 0.016722 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000235 seconds.
+  path: Assets/City Props Bundle/MAPS/dumpsters/dirty/dumpster_01_red_dirty_Material.001_MetallicSmoothness.png
+  artifactKey: Guid(e39a89fe454637f45896e34eb9c1a6c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/City Props Bundle/MAPS/dumpsters/dirty/dumpster_01_red_dirty_Material.001_MetallicSmoothness.png using Guid(e39a89fe454637f45896e34eb9c1a6c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9bfcd98d433853686d8c9dedfd0dcf8c') in 0.013177 seconds 
+  Import took 0.017445 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000179 seconds.
+  path: Assets/City Props Bundle/MAPS/containers/Non_ruined/container_yellow_non_ruined_DefaultMaterial_MetallicSmoothness.png
+  artifactKey: Guid(08b643455d7568e4a9dc6ea82a0381ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/City Props Bundle/MAPS/containers/Non_ruined/container_yellow_non_ruined_DefaultMaterial_MetallicSmoothness.png using Guid(08b643455d7568e4a9dc6ea82a0381ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00303751ccfb5c380acab165f9ec03e2') in 0.012835 seconds 
+  Import took 0.016850 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000196 seconds.
+  path: Assets/City Props Bundle/MAPS/fire_hydrant/fire_hydrant_DefaultMaterial_Normal.png
+  artifactKey: Guid(ee39ff3986aa97e4995387400355e86f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/City Props Bundle/MAPS/fire_hydrant/fire_hydrant_DefaultMaterial_Normal.png using Guid(ee39ff3986aa97e4995387400355e86f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2fec3762062063ca39422fffda68cc58') in 0.014047 seconds 
+  Import took 0.018087 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000189 seconds.
+  path: Assets/City Props Bundle/MAPS/dumpsters/clean/dumpster_01_red_clean_Material.001_MetallicSmoothness.png
+  artifactKey: Guid(f4a0638b40349d546ad79556d4322a1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/City Props Bundle/MAPS/dumpsters/clean/dumpster_01_red_clean_Material.001_MetallicSmoothness.png using Guid(f4a0638b40349d546ad79556d4322a1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a625920f10f7f851cba082025fbc7de9') in 0.014114 seconds 
+  Import took 0.017820 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000189 seconds.
+  path: Assets/City Props Bundle/MAPS/dumpsters/dirty/dumpster_01_red_dirty_Material.001_Normal.png
+  artifactKey: Guid(15a2d2cfa98d59443a1945b03d09bb21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/City Props Bundle/MAPS/dumpsters/dirty/dumpster_01_red_dirty_Material.001_Normal.png using Guid(15a2d2cfa98d59443a1945b03d09bb21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a8f09a33cf5163a9f3b7093f9402a4d') in 0.013781 seconds 
+  Import took 0.018047 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000174 seconds.
+  path: Assets/City Props Bundle/MAPS/containers/Ruined/container_yellow_ruined_DefaultMaterial_Normal.png
+  artifactKey: Guid(a62e2cae14b54b247913c0099a9c8e5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/City Props Bundle/MAPS/containers/Ruined/container_yellow_ruined_DefaultMaterial_Normal.png using Guid(a62e2cae14b54b247913c0099a9c8e5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd6c735adc730f19736bb5bd0116d8fb') in 0.013642 seconds 
+  Import took 0.017592 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000208 seconds.
+  path: Assets/City Props Bundle/MAPS/dumpsters/clean/dumpster_01_red_clean_low_Material.001_AlbedoTransparency.png
+  artifactKey: Guid(11cd6e9c31a780b43b1478b549de2a0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/City Props Bundle/MAPS/dumpsters/clean/dumpster_01_red_clean_low_Material.001_AlbedoTransparency.png using Guid(11cd6e9c31a780b43b1478b549de2a0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6b6e679a4ddf69d21361ae456c0dc90') in 0.012063 seconds 
+  Import took 0.015749 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000189 seconds.
+  path: Assets/City Props Bundle/MAPS/dumpsters/clean/dumpster_02_blue_Material_AO.png
+  artifactKey: Guid(bfce951f4b22df84a8d2326ea0f67867) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/City Props Bundle/MAPS/dumpsters/clean/dumpster_02_blue_Material_AO.png using Guid(bfce951f4b22df84a8d2326ea0f67867) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e31fbc4a2bdcf85ff353278061aac62') in 0.012967 seconds 
+  Import took 0.016978 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000210 seconds.
+  path: Assets/City Props Bundle/MAPS/dumpsters/clean/dumpster_01_red_clean_Material.001_AO.png
+  artifactKey: Guid(0cc34d54c69317540a62a9046df33acb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/City Props Bundle/MAPS/dumpsters/clean/dumpster_01_red_clean_Material.001_AO.png using Guid(0cc34d54c69317540a62a9046df33acb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39b66fc7f955a842208ff68c7e2155dc') in 0.011827 seconds 
+  Import took 0.016099 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 67.819382 seconds.
+  path: Assets/City Props Bundle/PREFABS
+  artifactKey: Guid(5c9371fdcace6df4facd3a9a4f6f312e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/City Props Bundle/PREFABS using Guid(5c9371fdcace6df4facd3a9a4f6f312e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dada9aac82a29e4edf347b5a31e273b3') in 0.005755 seconds 
+  Import took 0.010295 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.103122 seconds.
+  path: Assets/City Props Bundle/PREFABS/barrel_01 (1).prefab
+  artifactKey: Guid(52978e634c533654eb48564870a874ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/City Props Bundle/PREFABS/barrel_01 (1).prefab using Guid(52978e634c533654eb48564870a874ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b6f67750506a0634f8dd7af4e4baedd') in 0.080329 seconds 
+  Import took 0.084691 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000176 seconds.
+  path: Assets/City Props Bundle/PREFABS/bench_02.prefab
+  artifactKey: Guid(58718a685a6b731499e38cda96d7d2e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/City Props Bundle/PREFABS/bench_02.prefab using Guid(58718a685a6b731499e38cda96d7d2e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f6656b68056404b76c84c31f15deea9') in 0.067162 seconds 
+  Import took 0.071809 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000285 seconds.
+  path: Assets/City Props Bundle/PREFABS/traffic_light_01.prefab
+  artifactKey: Guid(1576ca83414a02a4db4e6f04a34dcd93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/City Props Bundle/PREFABS/traffic_light_01.prefab using Guid(1576ca83414a02a4db4e6f04a34dcd93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd26a47c6ee212af5e2f32cffbcdd07c6') in 0.026635 seconds 
+  Import took 0.031799 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000168 seconds.
+  path: Assets/City Props Bundle/PREFABS/container_01 (3).prefab
+  artifactKey: Guid(53e77e0877baeaf45b0d0a76248b67cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/City Props Bundle/PREFABS/container_01 (3).prefab using Guid(53e77e0877baeaf45b0d0a76248b67cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2aba80136b9bd698eded837341d93737') in 0.022927 seconds 
+  Import took 0.027762 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000159 seconds.
+  path: Assets/City Props Bundle/PREFABS/dumpster_01 (1).prefab
+  artifactKey: Guid(df0fa5513fd2e304ca49846fb4910bf0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/City Props Bundle/PREFABS/dumpster_01 (1).prefab using Guid(df0fa5513fd2e304ca49846fb4910bf0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ba7cf8c85478202b00ca7a966f2b822') in 0.024383 seconds 
+  Import took 0.029152 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000181 seconds.
+  path: Assets/City Props Bundle/PREFABS/road_barrier_01.prefab
+  artifactKey: Guid(3452e800e85575341a6e56bc843fa4c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/City Props Bundle/PREFABS/road_barrier_01.prefab using Guid(3452e800e85575341a6e56bc843fa4c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19f960b85f04aa96ad1ab727f7f211a1') in 0.021845 seconds 
+  Import took 0.026380 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000168 seconds.
+  path: Assets/City Props Bundle/PREFABS/container_01 (5).prefab
+  artifactKey: Guid(7d6321aa847c21549b22071f3fc81e61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/City Props Bundle/PREFABS/container_01 (5).prefab using Guid(7d6321aa847c21549b22071f3fc81e61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b63478302072990b06a32d40f4b3be00') in 0.023811 seconds 
+  Import took 0.028331 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000213 seconds.
+  path: Assets/City Props Bundle/PREFABS/dumpster_01.prefab
+  artifactKey: Guid(0d8eafda27f93954dbeec65a7097b93b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/City Props Bundle/PREFABS/dumpster_01.prefab using Guid(0d8eafda27f93954dbeec65a7097b93b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6ec77c41d35aaa216bf01f9b2bb43cc') in 0.022077 seconds 
+  Import took 0.026833 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000172 seconds.
+  path: Assets/City Props Bundle/PREFABS/dumpster_02 (1).prefab
+  artifactKey: Guid(7ff7d79ed03283d4692f4aad90b1ccb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/City Props Bundle/PREFABS/dumpster_02 (1).prefab using Guid(7ff7d79ed03283d4692f4aad90b1ccb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2b532e50b3fbd3e076ced96befa8c17') in 0.021848 seconds 
+  Import took 0.026436 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000220 seconds.
+  path: Assets/City Props Bundle/PREFABS/bench_01.prefab
+  artifactKey: Guid(f42f866fa8ad4214d9f77fba766f7cbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/City Props Bundle/PREFABS/bench_01.prefab using Guid(f42f866fa8ad4214d9f77fba766f7cbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eca3339b6ab372812c6d3335eb318781') in 0.022600 seconds 
+  Import took 0.027684 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000205 seconds.
+  path: Assets/City Props Bundle/PREFABS/bin_01.prefab
+  artifactKey: Guid(450919f08fb262641bd983147441e84d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/City Props Bundle/PREFABS/bin_01.prefab using Guid(450919f08fb262641bd983147441e84d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f011fb435d96868d5e906b85ff182dfd') in 0.021642 seconds 
+  Import took 0.026413 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000214 seconds.
+  path: Assets/City Props Bundle/PREFABS/dumpster_02.prefab
+  artifactKey: Guid(53e475089ce39514190b56a493feb7fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/City Props Bundle/PREFABS/dumpster_02.prefab using Guid(53e475089ce39514190b56a493feb7fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45c843e524c80c461adb5594c0b21a80') in 0.022081 seconds 
+  Import took 0.026796 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000173 seconds.
+  path: Assets/City Props Bundle/PREFABS/bin_03.prefab
+  artifactKey: Guid(1dd597ffb0a51494cb18fef2d361718b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/City Props Bundle/PREFABS/bin_03.prefab using Guid(1dd597ffb0a51494cb18fef2d361718b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8397df69f24f156098e4c6dbd1501dd9') in 0.022992 seconds 
+  Import took 0.027632 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000242 seconds.
+  path: Assets/City Props Bundle/PREFABS/container_01 (4).prefab
+  artifactKey: Guid(ffb1f63b282c4e14ba877cca95702859) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/City Props Bundle/PREFABS/container_01 (4).prefab using Guid(ffb1f63b282c4e14ba877cca95702859) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44a99b0e9d36d4b241195ef03d939a80') in 0.023153 seconds 
+  Import took 0.028182 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000180 seconds.
+  path: Assets/City Props Bundle/PREFABS/mailbox_street.prefab
+  artifactKey: Guid(36d132f6e5934b145a84aa404f3b832d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/City Props Bundle/PREFABS/mailbox_street.prefab using Guid(36d132f6e5934b145a84aa404f3b832d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ebf523bd3e6fe53a82fbe5c14d46b5bf') in 0.022811 seconds 
+  Import took 0.027589 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000173 seconds.
+  path: Assets/City Props Bundle/PREFABS/bin_02.prefab
+  artifactKey: Guid(80a0304f8a4d6b744b51aea2f654ac21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/City Props Bundle/PREFABS/bin_02.prefab using Guid(80a0304f8a4d6b744b51aea2f654ac21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '60d197498a768247f805b5b2462d4a24') in 0.023845 seconds 
+  Import took 0.028497 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000163 seconds.
+  path: Assets/City Props Bundle/PREFABS/container_01.prefab
+  artifactKey: Guid(dd29adc9133586049b11f0dc51f83154) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/City Props Bundle/PREFABS/container_01.prefab using Guid(dd29adc9133586049b11f0dc51f83154) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed2f68eb2541ba500d05a1aded024fdb') in 0.023456 seconds 
+  Import took 0.027837 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000174 seconds.
+  path: Assets/City Props Bundle/PREFABS/road_barrier_02.prefab
+  artifactKey: Guid(a6e39f2b729089a47a6f068658bc4332) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/City Props Bundle/PREFABS/road_barrier_02.prefab using Guid(a6e39f2b729089a47a6f068658bc4332) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61c602b6f497194557b5adca869973f9') in 0.022424 seconds 
+  Import took 0.027304 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000200 seconds.
+  path: Assets/City Props Bundle/PREFABS/barrel_01 (2).prefab
+  artifactKey: Guid(9a0c0ee817c265c4c82bdc4d4589cffd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/City Props Bundle/PREFABS/barrel_01 (2).prefab using Guid(9a0c0ee817c265c4c82bdc4d4589cffd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3858ad7c0d85ea270b2031dac9b07ba8') in 0.016501 seconds 
+  Import took 0.021197 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000197 seconds.
+  path: Assets/City Props Bundle/PREFABS/container_01 (1).prefab
+  artifactKey: Guid(b496c499a8de3c54882034347e0ae038) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/City Props Bundle/PREFABS/container_01 (1).prefab using Guid(b496c499a8de3c54882034347e0ae038) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'efdc2a10e8df2b627bdf2cccb0b5b830') in 0.022259 seconds 
+  Import took 0.026970 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000184 seconds.
+  path: Assets/City Props Bundle/PREFABS/road_barrier_concrete.prefab
+  artifactKey: Guid(24244c48d0af7f34c92922d8932aa732) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/City Props Bundle/PREFABS/road_barrier_concrete.prefab using Guid(24244c48d0af7f34c92922d8932aa732) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '704785dffb5586427f51f10c42522b0a') in 0.022371 seconds 
+  Import took 0.027188 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000175 seconds.
+  path: Assets/City Props Bundle/PREFABS/container_01 (2).prefab
+  artifactKey: Guid(97266b58dd863164aa3f4b8a223cd796) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/City Props Bundle/PREFABS/container_01 (2).prefab using Guid(97266b58dd863164aa3f4b8a223cd796) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a6613aeebbbd26f4dedcdd64524c69f') in 0.023928 seconds 
+  Import took 0.028567 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000185 seconds.
+  path: Assets/City Props Bundle/PREFABS/fire_hydrant.prefab
+  artifactKey: Guid(1ba15978291e2594583dc8dc0088a622) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/City Props Bundle/PREFABS/fire_hydrant.prefab using Guid(1ba15978291e2594583dc8dc0088a622) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af238afa4ef143e228d6e84975c08ff6') in 0.021881 seconds 
+  Import took 0.026254 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000178 seconds.
+  path: Assets/City Props Bundle/PREFABS/barrel_01.prefab
+  artifactKey: Guid(5b771317d7b3efa40990bf964e6525fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/City Props Bundle/PREFABS/barrel_01.prefab using Guid(5b771317d7b3efa40990bf964e6525fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc204edf360b4f4f7b4ebc561113b888') in 0.015867 seconds 
+  Import took 0.019869 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.396984 seconds.
+  path: Assets/City Props Bundle/MAPS/barrels
+  artifactKey: Guid(c41a7d756c85eb145bb179a7cea035a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/City Props Bundle/MAPS/barrels using Guid(c41a7d756c85eb145bb179a7cea035a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8fe58c6290e18aee4117b0fa95c7798') in 0.007936 seconds 
+  Import took 0.012147 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.225233 seconds.
+  path: Assets/City Props Bundle/MAPS/barrels/Materials
+  artifactKey: Guid(464228da385cf6d409c5e8f02b36e290) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/City Props Bundle/MAPS/barrels/Materials using Guid(464228da385cf6d409c5e8f02b36e290) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e830bf1592aaf8b2e149a8d0808e04df') in 0.005175 seconds 
+  Import took 0.009380 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.094656 seconds.
+  path: Assets/City Props Bundle/MAPS/barrels/Materials/barrel_blue_DefaultMaterial_AlbedoTransparency.mat
+  artifactKey: Guid(d23fb1712347bda4db01ec775c036636) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/City Props Bundle/MAPS/barrels/Materials/barrel_blue_DefaultMaterial_AlbedoTransparency.mat using Guid(d23fb1712347bda4db01ec775c036636) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a69e7427b53039c872c102375c9645b3') in 0.025653 seconds 
+  Import took 0.032019 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000292 seconds.
+  path: Assets/City Props Bundle/MAPS/barrels/Materials/barrel_red_DefaultMaterial_AlbedoTransparency.mat
+  artifactKey: Guid(996f7ba5ce6e45a49a115ed21007b835) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/City Props Bundle/MAPS/barrels/Materials/barrel_red_DefaultMaterial_AlbedoTransparency.mat using Guid(996f7ba5ce6e45a49a115ed21007b835) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a6887ff9f9548ce359c476e5b0ebd5d') in 0.017243 seconds 
+  Import took 0.023131 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000243 seconds.
+  path: Assets/City Props Bundle/MAPS/barrels/Materials/barrel_yellow_DefaultMaterial_AlbedoTransparency.mat
+  artifactKey: Guid(115ee95bc6208ad4abd36bf8eec46199) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/City Props Bundle/MAPS/barrels/Materials/barrel_yellow_DefaultMaterial_AlbedoTransparency.mat using Guid(115ee95bc6208ad4abd36bf8eec46199) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6356740b1a00085e5eb1e69c93e2fa2c') in 0.018984 seconds 
+  Import took 0.024147 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 76.487985 seconds.
+  path: Assets/City Props Bundle/FBX
+  artifactKey: Guid(8862ca45bd832be4b99c6c14d8bd84dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/City Props Bundle/FBX using Guid(8862ca45bd832be4b99c6c14d8bd84dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e65feded9e8d28192e240441438bbbc') in 0.005416 seconds 
+  Import took 0.010281 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.088455 seconds.
+  path: Assets/City Props Bundle/FBX/barrel_01.fbx
+  artifactKey: Guid(1d75dffe699a1bc45b1fb35120705080) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/City Props Bundle/FBX/barrel_01.fbx using Guid(1d75dffe699a1bc45b1fb35120705080) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7bbff6146c7f61c8d375ad5f1380c60e') in 0.023767 seconds 
+  Import took 0.028189 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000215 seconds.
+  path: Assets/City Props Bundle/FBX/traffic_light_01.fbx
+  artifactKey: Guid(9416ca20de6057743b4dfa835afe076c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/City Props Bundle/FBX/traffic_light_01.fbx using Guid(9416ca20de6057743b4dfa835afe076c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34ba27572aeeb7c003ab716268d88d2d') in 0.024559 seconds 
+  Import took 0.028779 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000166 seconds.
+  path: Assets/City Props Bundle/FBX/bench_01.fbx
+  artifactKey: Guid(b5740b52a1ede7641b46e537f82fd226) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/City Props Bundle/FBX/bench_01.fbx using Guid(b5740b52a1ede7641b46e537f82fd226) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97e235d4df3806066c3ad3118ad07b5c') in 0.023821 seconds 
+  Import took 0.027700 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000179 seconds.
+  path: Assets/City Props Bundle/FBX/bin_01.fbx
+  artifactKey: Guid(53fc9c9795cdd72418a10d8a9d1691ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/City Props Bundle/FBX/bin_01.fbx using Guid(53fc9c9795cdd72418a10d8a9d1691ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dccf4a0752a1a8588341825650ea2185') in 0.023559 seconds 
+  Import took 0.027536 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000178 seconds.
+  path: Assets/City Props Bundle/FBX/container_01.fbx
+  artifactKey: Guid(4db60b3a193b85a4cbd07d9690863aa6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/City Props Bundle/FBX/container_01.fbx using Guid(4db60b3a193b85a4cbd07d9690863aa6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71491d01ceb9b1d5a3c822bd5e84b186') in 0.023175 seconds 
+  Import took 0.026869 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000218 seconds.
+  path: Assets/City Props Bundle/FBX/road_barrier_concrete.fbx
+  artifactKey: Guid(949a502e89741bf4bbc2a9e9522ba6f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/City Props Bundle/FBX/road_barrier_concrete.fbx using Guid(949a502e89741bf4bbc2a9e9522ba6f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd1ad3774da33b9150e01704a7575296') in 0.024471 seconds 
+  Import took 0.028216 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000169 seconds.
+  path: Assets/City Props Bundle/FBX/fire_hydrant.fbx
+  artifactKey: Guid(16109f5043465e044ab90b2676438f61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/City Props Bundle/FBX/fire_hydrant.fbx using Guid(16109f5043465e044ab90b2676438f61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6876ecdac18fd425fd3cfc5501f3dc2c') in 0.024114 seconds 
+  Import took 0.028019 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000210 seconds.
+  path: Assets/City Props Bundle/FBX/bench_02.fbx
+  artifactKey: Guid(0bd31cf60b9c7624da2d897b4bd622a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/City Props Bundle/FBX/bench_02.fbx using Guid(0bd31cf60b9c7624da2d897b4bd622a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4b5b39cfcfcfb05f80b7cfdd27c6485') in 0.025312 seconds 
+  Import took 0.029715 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000173 seconds.
+  path: Assets/City Props Bundle/FBX/road_barrier_01.fbx
+  artifactKey: Guid(58476ca1e8505774984edc555a8a33c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/City Props Bundle/FBX/road_barrier_01.fbx using Guid(58476ca1e8505774984edc555a8a33c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aff2447f45098766cd68a844441b0343') in 0.026768 seconds 
+  Import took 0.030763 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000266 seconds.
+  path: Assets/City Props Bundle/FBX/bin_02.fbx
+  artifactKey: Guid(6211196356c03b144899e7e2892da0d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/City Props Bundle/FBX/bin_02.fbx using Guid(6211196356c03b144899e7e2892da0d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ed03e7b336b279555e3e775c82a6f14') in 0.023005 seconds 
+  Import took 0.027253 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000155 seconds.
+  path: Assets/City Props Bundle/FBX/dumpster_02.fbx
+  artifactKey: Guid(ac9de0b46f85fe846b53b42177af69e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/City Props Bundle/FBX/dumpster_02.fbx using Guid(ac9de0b46f85fe846b53b42177af69e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd84a6e1b7247e75cb343577f2f8f0534') in 0.023365 seconds 
+  Import took 0.027440 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000235 seconds.
+  path: Assets/City Props Bundle/FBX/dumpster_01.fbx
+  artifactKey: Guid(4e5dff914484bae4984c63bcf95f0213) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/City Props Bundle/FBX/dumpster_01.fbx using Guid(4e5dff914484bae4984c63bcf95f0213) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b31d779fb3227a5fc4649110104626b') in 0.023875 seconds 
+  Import took 0.028190 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000214 seconds.
+  path: Assets/City Props Bundle/FBX/road_barrier_02.fbx
+  artifactKey: Guid(ce619eab370501d42bb1be996d2df20d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/City Props Bundle/FBX/road_barrier_02.fbx using Guid(ce619eab370501d42bb1be996d2df20d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2564ee24954420d9093b1309711a65c6') in 0.022399 seconds 
+  Import took 0.026502 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000162 seconds.
+  path: Assets/City Props Bundle/FBX/mailbox_street.fbx
+  artifactKey: Guid(d3d437eaf8e548f46b90a48b04c8c9f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/City Props Bundle/FBX/mailbox_street.fbx using Guid(d3d437eaf8e548f46b90a48b04c8c9f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2cf6beebb9a8006193fb51ba4f825eb') in 0.025709 seconds 
+  Import took 0.029554 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000159 seconds.
+  path: Assets/City Props Bundle/FBX/bin_03.fbx
+  artifactKey: Guid(db2854fee299d2846b904b19098bb553) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/City Props Bundle/FBX/bin_03.fbx using Guid(db2854fee299d2846b904b19098bb553) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9df6d130e0943309769058a5cede5cfd') in 0.023771 seconds 
+  Import took 0.027767 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 195.343726 seconds.
+  path: Assets/Materials/Base_Mat 1.shadergraph
+  artifactKey: Guid(f3804290bee441747a4c2e5bcb6acca5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Base_Mat 1.shadergraph using Guid(f3804290bee441747a4c2e5bcb6acca5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43ee50cf3bab9c28c5fe6885fe98ddda') in 0.007778 seconds 
+  Import took 0.012611 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.014746 seconds.
+  path: Assets/Materials/Cabin.mat
+  artifactKey: Guid(4b6b44d9f6d22924ebc3c58d0790c264) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Cabin.mat using Guid(4b6b44d9f6d22924ebc3c58d0790c264) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab464e5161c1e025d8c22cab91d8513e') in 0.053677 seconds 
+  Import took 0.058813 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000244 seconds.
+  path: Assets/Materials/ForkLift.mat
+  artifactKey: Guid(702a4b95da1e61243bb89fb751d1c173) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/ForkLift.mat using Guid(702a4b95da1e61243bb89fb751d1c173) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c1f56c9eb8a55c14a325b229210dd0e') in 0.024173 seconds 
+  Import took 0.028537 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000158 seconds.
+  path: Assets/Materials/Struct.mat
+  artifactKey: Guid(f5ae3d65bff29bb47a3c685e310e887a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Struct.mat using Guid(f5ae3d65bff29bb47a3c685e310e887a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf9f4be95ea9acc4c648708c6c2db6c6') in 0.023760 seconds 
+  Import took 0.027834 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000211 seconds.
+  path: Assets/Materials/Elevador.mat
+  artifactKey: Guid(134d77429c51c8e4db945410647a4be6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Elevador.mat using Guid(134d77429c51c8e4db945410647a4be6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '266c3a7d914bc74d984e1bf1cf60dd39') in 0.023861 seconds 
+  Import took 0.028463 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.886658 seconds.
+  path: Assets/Materials/Base_MatSpecular.shadergraph
+  artifactKey: Guid(f3804290bee441747a4c2e5bcb6acca5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Base_MatSpecular.shadergraph using Guid(f3804290bee441747a4c2e5bcb6acca5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22d84b94eca2345587dee8b8722c4750') in 0.007250 seconds 
+  Import took 0.011675 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 27.647810 seconds.
+  path: Assets/Materials/Base_MatSpecular.shadergraph
+  artifactKey: Guid(f3804290bee441747a4c2e5bcb6acca5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Base_MatSpecular.shadergraph using Guid(f3804290bee441747a4c2e5bcb6acca5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0d2e1966ab84fe7c8a98930be7e77e9') in 0.003194 seconds 
+  Import took 0.007457 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 336.208801 seconds.
+  path: Assets/City Props Bundle/MAPS/barrels/barrel_01.json
+  artifactKey: Guid(a567dc1ca3977434b894a1ce98d459e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/City Props Bundle/MAPS/barrels/barrel_01.json using Guid(a567dc1ca3977434b894a1ce98d459e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'daa9bd0478ceea6669bbf73988a3b2a9') in 0.092662 seconds 
+  Import took 0.097427 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004275 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.07 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.417 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1417ms)
+		BeginReloadAssembly (168ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (9ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (54ms)
+		EndReloadAssembly (1181ms)
+			LoadAssemblies (105ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (349ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (51ms)
+			SetupLoadedEditorAssemblies (478ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (7ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (149ms)
+				ProcessInitializeOnLoadAttributes (312ms)
+				ProcessInitializeOnLoadMethodAttributes (5ms)
+				AfterProcessingInitializeOnLoad (3ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (18ms)
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.77 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2627 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 140.8 MB.
+System memory in use after: 139.2 MB.
+
+Unloading 35 unused Assets to reduce memory usage. Loaded Objects now: 3218.
+Total: 3.907900 ms (FindLiveObjects: 0.296300 ms CreateObjectMapping: 0.068500 ms MarkObjects: 2.338800 ms  DeleteObjects: 1.202000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 2777.883570 seconds.
+  path: Assets/City Props Bundle/MAPS/dumpsters/clean/dumpster_02_green_Material_AO.png
+  artifactKey: Guid(7c18850f52035ec4d956d890f99e5a8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/City Props Bundle/MAPS/dumpsters/clean/dumpster_02_green_Material_AO.png using Guid(7c18850f52035ec4d956d890f99e5a8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac39cb063c8ff9810d40a0dd4d9991cd') in 0.069673 seconds 
+  Import took 0.079405 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000280 seconds.
+  path: Assets/City Props Bundle/MAPS/dumpsters/clean/dumpster_02_green_Material_MetallicSmoothness.png
+  artifactKey: Guid(b863d28def477a44e888936ecf2a830d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/City Props Bundle/MAPS/dumpsters/clean/dumpster_02_green_Material_MetallicSmoothness.png using Guid(b863d28def477a44e888936ecf2a830d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e368ebafe397bf18d040fdedaac9991') in 0.024330 seconds 
+  Import took 0.028734 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 974.497686 seconds.
+  path: Assets/City Props Bundle/MAPS/traffic_lights/traffic_light_01_Material_AlbedoTransparency.png
+  artifactKey: Guid(11c6613fdc20667469666c7c94f86172) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/City Props Bundle/MAPS/traffic_lights/traffic_light_01_Material_AlbedoTransparency.png using Guid(11c6613fdc20667469666c7c94f86172) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75f30eefedc987cfa920c90a1756d430') in 0.015626 seconds 
+  Import took 0.020149 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000218 seconds.
+  path: Assets/City Props Bundle/MAPS/traffic_lights/traffic_light_01_Material_AO.png
+  artifactKey: Guid(55e2666ed05865b4a93dd0ca2f665b69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/City Props Bundle/MAPS/traffic_lights/traffic_light_01_Material_AO.png using Guid(55e2666ed05865b4a93dd0ca2f665b69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31150c913224839dd40f54ef35a47411') in 0.019751 seconds 
+  Import took 0.024107 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000229 seconds.
+  path: Assets/TutorialInfo/Icons/UniversalIcon.png
+  artifactKey: Guid(7801804018a7dcf42abb827444e18660) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TutorialInfo/Icons/UniversalIcon.png using Guid(7801804018a7dcf42abb827444e18660) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2469af74232faa562fa73eb837360c84') in 0.044559 seconds 
+  Import took 0.049217 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000211 seconds.
+  path: Assets/City Props Bundle/MAPS/traffic_lights/traffic_light_01_Material_Normal.png
+  artifactKey: Guid(9757718a99ee69b499176de5c49fc262) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/City Props Bundle/MAPS/traffic_lights/traffic_light_01_Material_Normal.png using Guid(9757718a99ee69b499176de5c49fc262) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d85c54c0be094cd7757857e2e31985b') in 0.018577 seconds 
+  Import took 0.022631 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000184 seconds.
+  path: Assets/City Props Bundle/MAPS/traffic_lights/traffic_light_01_Material_AlbedoTransparency.png
+  artifactKey: Guid(11c6613fdc20667469666c7c94f86172) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/City Props Bundle/MAPS/traffic_lights/traffic_light_01_Material_AlbedoTransparency.png using Guid(11c6613fdc20667469666c7c94f86172) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75f30eefedc987cfa920c90a1756d430') in 0.015960 seconds 
+  Import took 0.019861 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000257 seconds.
+  path: Assets/City Props Bundle/MAPS/traffic_lights/traffic_light_01_Material_MetallicSmoothness.png
+  artifactKey: Guid(d80a43cf51846d24c87debc8f80cc9e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/City Props Bundle/MAPS/traffic_lights/traffic_light_01_Material_MetallicSmoothness.png using Guid(d80a43cf51846d24c87debc8f80cc9e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bdbc0cc2d5cb80f5e939414a8762eeaf') in 0.016487 seconds 
+  Import took 0.021520 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 671.355648 seconds.
+  path: Assets/Materials/Red.mat
+  artifactKey: Guid(01695624946b84940b0ebb0394aaba49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Red.mat using Guid(01695624946b84940b0ebb0394aaba49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '738628e376051659f6b768a84bc16e5d') in 0.162913 seconds 
+  Import took 0.169155 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 42.872959 seconds.
+  path: Assets/Models/Lifter_Linde_H50D_Finish.fbx
+  artifactKey: Guid(58115f7384d60de4eb69d6fea0079e2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Lifter_Linde_H50D_Finish.fbx using Guid(58115f7384d60de4eb69d6fea0079e2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25775c9f6d3329589781526f2a69a31a') in 0.532860 seconds 
+  Import took 0.538919 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1041.799256 seconds.
+  path: Assets/Textures/Ground
+  artifactKey: Guid(32dccd2f31f0fb647b26fd9d31e6c038) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Ground using Guid(32dccd2f31f0fb647b26fd9d31e6c038) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '042a6fb2fa63332a24a2d5daff23c32f') in 0.005816 seconds 
+  Import took 0.010332 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 17.821233 seconds.
+  path: Assets/Textures/Ground/forrest_ground_01_rough_1k.jpg
+  artifactKey: Guid(aa8812157d7adc74a9b97fed22755653) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Ground/forrest_ground_01_rough_1k.jpg using Guid(aa8812157d7adc74a9b97fed22755653) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6143ffa388f6e3209b2d20244146cf25') in 0.029902 seconds 
+  Import took 0.036072 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000302 seconds.
+  path: Assets/Textures/Ground/forrest_ground_01_diff_1k.jpg
+  artifactKey: Guid(f68c8d454a0ead24292bd93fdae1ae8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Ground/forrest_ground_01_diff_1k.jpg using Guid(f68c8d454a0ead24292bd93fdae1ae8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef8b2d2c618133b851471b5b0653a8ed') in 0.040276 seconds 
+  Import took 0.047216 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000265 seconds.
+  path: Assets/Textures/Ground/asphalt_02_rough_1k.jpg
+  artifactKey: Guid(d111c606238a60d478d0d47985fe9f14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Ground/asphalt_02_rough_1k.jpg using Guid(d111c606238a60d478d0d47985fe9f14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd423651b20b0f23f004a2aed7d38216') in 0.014981 seconds 
+  Import took 0.020493 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000311 seconds.
+  path: Assets/Textures/Ground/forrest_ground_01_nor_gl_1k.exr
+  artifactKey: Guid(bdc61798853c95740837b39817712841) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Ground/forrest_ground_01_nor_gl_1k.exr using Guid(bdc61798853c95740837b39817712841) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae91655c7566dd8af82460154c8db7ba') in 0.030764 seconds 
+  Import took 0.037456 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000269 seconds.
+  path: Assets/Textures/Ground/asphalt_02_nor_gl_1k.exr
+  artifactKey: Guid(8a3a9833360c09a449e07c02a40c2d0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Ground/asphalt_02_nor_gl_1k.exr using Guid(8a3a9833360c09a449e07c02a40c2d0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b273dec24697f11ea6f02d87fb593b32') in 0.039091 seconds 
+  Import took 0.045224 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.014234 seconds.
+  path: Assets/Textures/Ground/forrest_ground_01_disp_1k.png
+  artifactKey: Guid(4743a62fbc0543a418ce09c169039a21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Ground/forrest_ground_01_disp_1k.png using Guid(4743a62fbc0543a418ce09c169039a21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2422d633ba06c494d5367f01c338c937') in 0.069905 seconds 
+  Import took 0.078936 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000216 seconds.
+  path: Assets/Textures/Ground/asphalt_02_disp_1k.png
+  artifactKey: Guid(476d0156f336c6f48a65db6d8ffb8edc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Ground/asphalt_02_disp_1k.png using Guid(476d0156f336c6f48a65db6d8ffb8edc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4723e12a2a000304651277d59ebb98d9') in 0.016041 seconds 
+  Import took 0.022040 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000352 seconds.
+  path: Assets/Textures/Ground/asphalt_02_diff_1k.jpg
+  artifactKey: Guid(e2db2961c2bb79745a10205aa2230c52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Ground/asphalt_02_diff_1k.jpg using Guid(e2db2961c2bb79745a10205aa2230c52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '69b30c2250b3855304b6d87280b10d94') in 0.041528 seconds 
+  Import took 0.049936 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000418 seconds.
+  path: Assets/Textures/Ground/asphalt_02_disp_1k.png
+  artifactKey: Guid(476d0156f336c6f48a65db6d8ffb8edc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Ground/asphalt_02_disp_1k.png using Guid(476d0156f336c6f48a65db6d8ffb8edc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4723e12a2a000304651277d59ebb98d9') in 0.034034 seconds 
+  Import took 0.040342 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.531601 seconds.
+  path: Assets/Textures/Ground/asphalt_02_nor_gl_1k.exr
+  artifactKey: Guid(8a3a9833360c09a449e07c02a40c2d0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Ground/asphalt_02_nor_gl_1k.exr using Guid(8a3a9833360c09a449e07c02a40c2d0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e289551ce08117985513f17eb7f3f30c') in 0.011254 seconds 
+  Import took 0.015701 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.007001 seconds.
+  path: Assets/Textures/Ground/asphalt_02_nor_gl_1k.exr
+  artifactKey: Guid(8a3a9833360c09a449e07c02a40c2d0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Ground/asphalt_02_nor_gl_1k.exr using Guid(8a3a9833360c09a449e07c02a40c2d0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e289551ce08117985513f17eb7f3f30c') in 0.011300 seconds 
+  Import took 0.016088 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.337679 seconds.
+  path: Assets/Textures/Ground/forrest_ground_01_nor_gl_1k.exr
+  artifactKey: Guid(bdc61798853c95740837b39817712841) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Ground/forrest_ground_01_nor_gl_1k.exr using Guid(bdc61798853c95740837b39817712841) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c499b74d9bf3a32fb9ccd6f25669b602') in 0.013067 seconds 
+  Import took 0.017585 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003870 seconds.
+  path: Assets/Textures/Ground/forrest_ground_01_nor_gl_1k.exr
+  artifactKey: Guid(bdc61798853c95740837b39817712841) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Ground/forrest_ground_01_nor_gl_1k.exr using Guid(bdc61798853c95740837b39817712841) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c499b74d9bf3a32fb9ccd6f25669b602') in 0.013378 seconds 
+  Import took 0.017644 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1048.417155 seconds.
+  path: Assets/Textures/kisspng-skybox-texture-mapping-cube-mapping-desktop-wallpa-sky-5abb3f7bdf4762.7539831015222209239146.png
+  artifactKey: Guid(9e9e474523c7fe048a6d483d44f6649e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/kisspng-skybox-texture-mapping-cube-mapping-desktop-wallpa-sky-5abb3f7bdf4762.7539831015222209239146.png using Guid(9e9e474523c7fe048a6d483d44f6649e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f73d8af59d661ea3920c492d7205cb1a') in 0.054300 seconds 
+  Import took 0.059165 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 44.846756 seconds.
+  path: Assets/Textures/kisspng-skybox-texture-mapping-cube-mapping-desktop-wallpa-sky-5abb3f7bdf4762.7539831015222209239146.png
+  artifactKey: Guid(9e9e474523c7fe048a6d483d44f6649e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/kisspng-skybox-texture-mapping-cube-mapping-desktop-wallpa-sky-5abb3f7bdf4762.7539831015222209239146.png using Guid(9e9e474523c7fe048a6d483d44f6649e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dfac490ee0240d8198e7a71c5836ad10') in 0.091394 seconds 
+  Import took 0.095703 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2176.913088 seconds.
+  path: Assets/Presets/Defaults
+  artifactKey: Guid(71ea82b02df99c2439e0dc8e4e1ebc24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Presets/Defaults using Guid(71ea82b02df99c2439e0dc8e4e1ebc24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2a56981c996a89ef789297d7a3fb242') in 0.005819 seconds 
+  Import took 0.010193 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.603106 seconds.
+  path: Assets/Presets/Defaults/AlbedoTexture_Default.preset
+  artifactKey: Guid(e8537455c6c08bd4e8bf0be3707da685) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Presets/Defaults/AlbedoTexture_Default.preset using Guid(e8537455c6c08bd4e8bf0be3707da685) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a39f5c6fcb9ea97bf434963b23d33ea7') in 0.022894 seconds 
+  Import took 0.027187 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000190 seconds.
+  path: Assets/Presets/Defaults/AudioDecompressOnLoad.preset
+  artifactKey: Guid(e7689051185d12f4298e1ebb2693a29f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Presets/Defaults/AudioDecompressOnLoad.preset using Guid(e7689051185d12f4298e1ebb2693a29f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '89d1cf06e67cef88edace491fed66d7e') in 0.030358 seconds 
+  Import took 0.034010 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000181 seconds.
+  path: Assets/Presets/Defaults/DirectionalLight_Default.preset
+  artifactKey: Guid(463065d4f17d1d94d848aa127b94dd43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Presets/Defaults/DirectionalLight_Default.preset using Guid(463065d4f17d1d94d848aa127b94dd43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51a078c6ae54eb254be36a9378726b4a') in 0.019484 seconds 
+  Import took 0.023394 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.057126 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.99 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  4.517 seconds
+Domain Reload Profiling:
+	ReloadAssembly (4536ms)
+		BeginReloadAssembly (2586ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (545ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1436ms)
+		EndReloadAssembly (1835ms)
+			LoadAssemblies (265ms)
+			RebuildTransferFunctionScriptingTraits (1ms)
+			SetupTypeCache (571ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (60ms)
+			SetupLoadedEditorAssemblies (629ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (9ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (169ms)
+				ProcessInitializeOnLoadAttributes (435ms)
+				ProcessInitializeOnLoadMethodAttributes (7ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (25ms)
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.61 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2613 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 139.9 MB.
+System memory in use after: 138.3 MB.
+
+Unloading 35 unused Assets to reduce memory usage. Loaded Objects now: 3261.
+Total: 29.312600 ms (FindLiveObjects: 0.341900 ms CreateObjectMapping: 0.072200 ms MarkObjects: 27.580300 ms  DeleteObjects: 1.315800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003801 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.60 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.394 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1394ms)
+		BeginReloadAssembly (173ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (40ms)
+		EndReloadAssembly (1153ms)
+			LoadAssemblies (141ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (355ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (45ms)
+			SetupLoadedEditorAssemblies (479ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (117ms)
+				ProcessInitializeOnLoadAttributes (349ms)
+				ProcessInitializeOnLoadMethodAttributes (4ms)
+				AfterProcessingInitializeOnLoad (3ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (19ms)
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.79 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2613 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 139.9 MB.
+System memory in use after: 138.4 MB.
+
+Unloading 35 unused Assets to reduce memory usage. Loaded Objects now: 3264.
+Total: 4.259300 ms (FindLiveObjects: 0.335800 ms CreateObjectMapping: 0.083800 ms MarkObjects: 2.718300 ms  DeleteObjects: 1.120000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 1833.912986 seconds.
+  path: Assets/Presets/Defaults/AlbedoTexture_Default.preset
+  artifactKey: Guid(e8537455c6c08bd4e8bf0be3707da685) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Presets/Defaults/AlbedoTexture_Default.preset using Guid(e8537455c6c08bd4e8bf0be3707da685) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e872e81e80676df2992971b474d5c63') in 0.052455 seconds 
+  Import took 0.057025 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 22.610759 seconds.
+  path: Assets/Scenes/SampleSceneLightingSettings.lighting
+  artifactKey: Guid(477cc4148fad3449482a3bc3178594e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/SampleSceneLightingSettings.lighting using Guid(477cc4148fad3449482a3bc3178594e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) LightingSettings: switching bake backend from 1 to 2.
+ -> (artifact id: 'e15b212bc550006396c489ce17b591ee') in 0.007242 seconds 
+  Import took 0.011259 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.008793 seconds.
+  path: Assets/Scenes/SampleSceneLightingSettings.lighting
+  artifactKey: Guid(477cc4148fad3449482a3bc3178594e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/SampleSceneLightingSettings.lighting using Guid(477cc4148fad3449482a3bc3178594e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) LightingSettings: switching bake backend from 1 to 2.
+ -> (artifact id: 'e15b212bc550006396c489ce17b591ee') in 0.002230 seconds 
+  Import took 0.006926 seconds .
+
